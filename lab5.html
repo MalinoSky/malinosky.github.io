@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    td select,
+    td input {
+      width: 150px;
+    }
+
+    label {
+      display: block;
+    }
+
+    .error input,
+    .error textarea {
+      border: 1px solid red;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <form>
+    <table>
+     <tr>
+        <td>Программа</td>
+        <td>
+          <select name="to">
+            <option></option>
+            <option value="pol">Колледж</option>
+             <option value="Хорошо">Бакалавриат</option>
+             <option value="Хорошо">Специалитет</option>
+             <option value="Хорошо">Магистратура</option>
+             <option value="Хорошо">Аспирантура</option>
+          </select>
+        </td>
+      </tr>
+      
+
+      <tr>
+        <td>Направление<br>
+подготовки/Специальность</td>
+        <td>
+          <select name="tot">
+            <option></option>
+            <option value="sur">Комплексная защита объектов информатизации</option>
+         <option value="Страна">Радиотехника</option>
+         <option value="Страна">Радиоэлектронные системы</option>
+         <option value="Страна">Телекоммуникации</option>
+         <option value="Страна">Дизайн</option>
+         <option value="Страна">Прикладная математика</option>
+          </select>
+        </td>
+      </tr>
+     
+           <tr>
+        <td>Выбор
+института/факультета</td>
+        <td>
+          <select name="toto">
+            <option></option>
+            <option value="sur" >ПрИТ</option>
+         <option value="Страна">МП</option>
+         <option value="Страна">ЭКТ</option>
+         <option value="Страна">ИТС</option>
+         <option value="Страна">Дизайн</option>
+         <option value="Страна">ИнЯз</option>
+         <option value="Страна">ИнЭУП</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Квалификация</td>
+        <td>
+          <select name="totot">
+            <option></option>
+            <option value="chis">Техник</option>
+         <option value="Страна">Бакалавр</option>
+         <option value="Страна">Специалист</option>
+         <option value="Страна">Магистр</option>
+         <option value="Страна">Кандидат наук</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Направленность
+(профиль/специализация)</td>
+        <td>
+          <select>
+            <option></option>
+            <option value="pas" > Графический дизайн</option>
+         <option value="Страна">Промышленный дизайн</option>
+         <option value="Страна">Дизайн среды</option>
+         <option value="Страна">Системы корпоративного управления</option>
+         <option value="Страна">Корпоративные информационные технологии и системы</option>
+          </select>
+        </td>
+        </tr>
+        <tr>
+        <td>Форма обучения</td>
+        <td>
+          <select name="tototo">
+            <option></option>
+            <option value="doog">Очная</option>
+         <option value="Страна">Заочная</option>
+         <option value="Страна">Очно-заочная</option>
+          </select>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td>Источники финансирования</td>
+        <td>
+          <select name="tototot">
+            <option></option>
+            <option value="suur">Бюджет</option>
+         <option value="Страна">Внебюджет (контракт)</option>
+          </select>
+        </td>
+
+      </tr>
+
+    </table>
+   
+
+    <input type="button" onclick="validate(this.form)" value="Проверить">
+  </form>
+
+  <script>
+  function show() {
+
+    document.getElementById('info').style.display='block';
+
+    }
+
+    function hide() {
+
+        document.getElementById('info').style.display='none';
+
+    }
+    
+    function showError(container, errorMessage) {
+      container.className = 'error';
+      var msgElem = document.createElement('span');
+      msgElem.className = "error-message";
+      msgElem.innerHTML = errorMessage;
+      container.appendChild(msgElem);
+    }
+
+    function resetError(container) {
+      container.className = '';
+      if (container.lastChild.className == "error-message") {
+        container.removeChild(container.lastChild);
+      }
+    }
+
+    function validate(form) {
+      var elems = form.elements;
+
+      resetError(elems.to.parentNode);
+      if (!elems.to.value) {
+        showError(elems.to.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+
+      resetError(elems.tot.parentNode);
+      if (!elems.tot.value) {
+        showError(elems.tot.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+
+      resetError(elems.toto.parentNode);
+      if (!elems.toto.value) {
+        showError(elems.toto.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+
+      resetError(elems.totot.parentNode);
+      if (!elems.totot.value) {
+        showError(elems.totot.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+       resetError(elems.tototo.parentNode);
+      if (!elems.tototo.value) {
+        showError(elems.tototo.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+      resetError(elems.tototot.parentNode);
+      if (!elems.tototot.value) {
+        showError(elems.tototot.parentNode, ' Укажите ￼тип учебного заведения.');
+      }
+      
+
+      
+
+    }
+    
+  </script>
+
+
+</body>
