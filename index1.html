@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+	<style>
+		
+
+
+		*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+
+
+.top_mnu {
+    height: 47px;
+    width: 100%;
+    background-image: url(../images/grad.png);
+}
+.main_mnu {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.main_mnu ul.ul_menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.main_mnu ul li.separate {
+    display: inline-block;
+}
+.main_mnu li.separate a.separate_link  {
+    background-image: url(../images/separate.png);
+    display: block;
+    background-repeat: repeat-y;
+    margin-right: -4px;
+}
+.main_mnu li.separate:last-child {
+    background-image: url(../images/separate.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+}
+.main_mnu a.separate_link {
+    font-size: 19px;
+    color: #fff;
+    padding: 10px 65px 10px 65px;
+    display: block;
+    transition: all .25s;
+    cursor: default; 
+}
+
+.ul_menu  li:hover .separate_link {
+  
+  background-color: #6579ba; 
+  
+}
+
+
+
+.separate .separate_link:hover {
+  background-color: #6579ba;
+}
+
+
+
+
+
+
+
+
+
+.menu .submenu {
+  background: #f0f9fe;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  left: 17%;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  padding: 12px;
+  position: absolute;
+  top: 38px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  visibility: hidden;
+  width: 695px;
+  color: #3b52a0;
+  margin-top: 3px;
+  z-index: 100;
+}
+
+.menu .resources {
+  left: 15%;
+  width: 790px;
+}
+.menu .service {
+  left: 25%;
+  width: 790px;
+}
+.menu .company {
+  left: 31%;
+  width: 742px;
+}
+.menu .products {
+  width: 900px;
+  left: 0;
+}
+
+.no-js .menu:hover .submenu,
+.menu-hover:hover .submenu,
+.menu-click.menu-active .submenu {
+  opacity: 1;
+  top: 44px;
+  visibility: visible;
+}
+
+.menu .submenu:before,
+.menu .submenu::before {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: -6px;
+  width: 0;
+}
+.menu .resources:before {
+  left: 22%;
+}
+.menu .service:before {
+  left: 62%;
+}
+.menu .company:before {
+    left: 89%;
+}
+.menu .products:before {
+  left: 15%;
+}
+
+.menu .submenu a {
+    color: #3b52a0;
+    display: inline-block;
+    line-height: 1.2em;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.menu .submenu a:hover {
+    text-decoration: underline;
+}
+.menu .submenu .hover_menu a:hover {
+    background: #94a6d5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+/*.ul_menu .submenu {
+   left: auto;
+  right: -12px;
+  text-align: right;
+}
+
+.ul_menu .submenu:before,
+.ul_menu .submenu::before {
+  left: auto;
+  right: 24px;
+}*/
+
+.f_left,
+.f_left .line {
+    float: left;
+    margin-right: 91px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    width: 187px;
+}
+.p_top {
+  width: 237px;
+}
+.resources .f_left {
+  margin-right: 10px;
+}
+.service .f_left {
+  margin-right: 33px;
+  margin-left: 35px;
+}
+.products .f_left {
+  margin-right: 0;
+  width: 236px;
+}
+.line_height {
+  line-height: 32px;
+}
+.f_left p {
+    margin: 0;
+    padding: 0;
+}
+.company .p_top p {
+  margin-top: 15px;
+}
+.company .p_top a.more {
+  padding-top: 15px;
+}
+
+
+.line:before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 207px;
+    background-color: #3b52a0;
+    left: 50%;
+    margin-left: 5px;
+    bottom: 20px;
+}
+.resources .line:before {
+  left: 33%;
+  height: 177px;
+}
+.service .line:before {
+  left: 35%;
+}
+.company .line:before {
+  height: 277px;
+  left: 46%;
+}
+.products .line:before {
+  height: 325px;
+  left: 35%;
+}
+.second_line:before {
+  position: absolute;
+    content: '';
+    width: 2px;
+    height: 177px;
+    background-color: #3b52a0;
+    left: 65%;
+    margin-left: 5px;
+    bottom: 20px;
+}
+.service .second_line:before {
+  height: 207px;
+  left: 67%;
+}
+.products .second_line:before {
+  height: 325px;
+  left: 68%;
+}
+
+.products .m_top a {
+  margin-top: 27px;
+}
+
+/*Синеватый ховер во всплывающем меню*/
+.sub_blue_menu { 
+  position: relative; 
+ 
+  list-style-type: disc;
+} 
+.sub_blue_menu, 
+.sub_blue_menu li { 
+  margin: 0; 
+  padding: 0; 
+} 
+.sub_blue_menu li { 
+  padding: 5px 10px; 
+  cursor: pointer; 
+  width: 177px;
+  list-style-position: inside;
+}
+
+.service .sub_blue_menu li {
+  width: 223px;
+}
+.products .sub_blue_menu li {
+  width: 246px;
+}
+
+.sub_blue_menu li .ul_span, 
+.sub_blue_menu:hover li:not(:hover) .ul_span {
+  position: absolute;
+  visibility: hidden;
+  border-radius: 6px;
+}
+.sub_blue_menu li .training,
+.sub_blue_menu:hover li:not(:hover) .training {
+  top: -25%;
+  left: 168px;
+  width: 225px;
+}
+.sub_blue_menu li .promo,
+.sub_blue_menu:hover li:not(:hover) .promo {
+  top: 9%;
+  left: 168px;
+  width: 225px;
+}
+.sub_blue_menu li .for_wind,
+.sub_blue_menu:hover li:not(:hover) .for_wind {
+  top: -27%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_wind li {
+  width: 276px;
+}
+.sub_blue_menu li .for_mac,
+.sub_blue_menu:hover li:not(:hover) .for_mac {
+  top: 7%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_lin,
+.sub_blue_menu:hover li:not(:hover) .for_lin {
+  top: 37%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_lin li {
+  width: 290px;
+}
+.sub_blue_menu li .sys_drive,
+.sub_blue_menu:hover li:not(:hover) .sys_drive {
+  top: 57%;
+  left: 180px;
+  width: 235px;
+}
+.sub_blue_menu li .sys_drive li {
+  width: 200px;
+}
+.sub_blue_menu li .sys_drive li:hover,
+.sub_blue_menu li .for_lin li:hover,
+.sub_blue_menu li .for_mac li:hover,
+.sub_blue_menu li .for_wind li:hover,
+.sub_blue_menu li .promo li:hover,
+.sub_blue_menu li .training li:hover {
+    text-decoration: underline;
+}
+.sub_blue_menu li:hover .ul_span { 
+  visibility: visible;
+  background-color: #94a6d5; 
+  padding: 20px 25px;
+  list-style-type: disc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+} 
+.sub_blue_menu li:hover { 
+  border-radius: 6px;
+  background: #94a6d5;
+  color: #fff; 
+}
+.sub_blue_menu li:hover span a {
+  margin-left: 50px;
+  color: #fff;
+  pointer-events: none;
+}
+/*------*/
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main_mnu a.separate_link {
+        padding: 10px 46px 10px 46px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_mnu a.separate_link {
+        padding: 10px 24px 10px 24px;
+	}
+
+	.menu .resources {
+    	left: 0;
+    	width: 100%;
+	}
+	.resources .f_left {
+    	margin-right: 0px;
+	}
+	.menu .products {
+		width: 100%;
+	}
+	.products .f_left {
+		margin-right: 16px;
+		margin-left: 6px;
+	}
+	.menu .submenu:before {
+    	left: 45%;
+    }
+    .menu .company:before {
+ 	   left: 89%;
+	}
+	.menu .resources:before {
+    	left: 27%;
+	}
+	.menu .products:before {
+    	left: 77px;
+	}
+	.products .p_top {
+		width: 184px;
+	}
+	.products .second_line:before {
+		left: 63%;
+	}
+	.products .line:before {
+    	left: 28%;
+	}
+	.menu .submenu {
+		width: 100%;
+		left: 0;
+	}
+	.line:before {
+		left: 45%;
+	}
+	.service .f_left {
+    	margin-right: 18px;
+    }
+    .menu .service:before {
+    	left: 67%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+
+	.main_mnu {
+		display: none;
+	}
+	.top_mnu {
+		background-image: none;
+	}
+	*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+
+
+body, html {
+height: 100%;
+margin: 0;
+overflow:hidden;
+font-family: helvetica;
+font-weight: 100;
+}
+.container {
+position: relative;
+height: 100%;
+width: 100%;
+right: 0;
+-webkit-transition:  right 0.4s ease-in-out;
+-moz-transition:  right 0.4s ease-in-out;
+-ms-transition:  right 0.4s ease-in-out;
+-o-transition:  right 0.4s ease-in-out;
+transition:  right 0.4s ease-in-out;
+}
+
+.container.open-sidebar {
+right: 240px;
+}
+
+#sidebar {
+position: absolute;
+right: -262px;
+background: #233581;
+width: 248px;
+height: 3000px;
+box-sizing: border-box;
+box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+/*#sidebar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#sidebar ul li {
+margin: 0;
+}
+#sidebar ul li a {
+padding: 15px 20px;
+font-size: 16px;
+font-weight: 100;
+color: white;
+text-decoration: none;
+display: block;
+/*border-bottom: 1px solid #C9223D;*
+-webkit-transition:  background 0.3s ease-in-out;
+-moz-transition:  background 0.3s ease-in-out;
+-ms-transition:  background 0.3s ease-in-out;
+-o-transition:  background 0.3s ease-in-out;
+transition:  background 0.3s ease-in-out;
+}
+#sidebar ul li:hover a {
+background: #C9223D;
+}*/
+.main-content {
+width: 100%;
+height: 100%;
+padding: 10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+position: relative;
+}
+
+/*knopka*/
+.main-content #sidebar-toggle {
+background: #233581;
+border-radius: 3px;
+display: block;
+position: relative;
+padding: 10px 7px;
+float: right;
+}
+.main-content #sidebar-toggle .bar{
+ display: block;
+width: 18px;
+margin-bottom: 3px;
+height: 2px;
+background-color: #fff;
+border-radius: 1px;   
+}
+.main-content #sidebar-toggle .bar:last-child{
+ margin-bottom: 0;   
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion_item {
+  border-bottom: 1px solid #5a95fd;
+}
+.accordion_item:last-of-type {
+  border-bottom: none;
+}
+
+/**
+ * Элемент label который запускает открыть/закрыть.
+ */
+.accordion_trigger {
+  display: block;
+  background-color: #007ccf;
+  color: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 21px;
+  font-size: 15px;
+}
+
+/**
+ * эти элементы radio/checkbox всегда должны быть скрыты.
+ */
+.accordion_toggle {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/**
+ * скрытое содержание аккордеона.
+ */
+.accordion_target {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  color: #444;   
+}
+.accordion_target_bottom {
+	border-bottom: 2px solid #bdcee6;
+}
+.accordion_target p {
+	margin: 0;
+}
+.accordion_target ul {
+  line-height: 2.5;
+  padding-left: 30px;
+}
+.accordion_target ul li {
+  color: #3b53a0;
+  list-style: disc;
+  font-size: 12px;
+  font-weight: 200;
+}
+.accordion_target ul li a {
+    color: #3b52a0;
+    text-decoration: none;
+}
+/**
+* когда переключатель checked на radio/checkbox, показать содержимое аккордеона.
+*/
+.accordion_toggle:after {
+	background-image: url(../images/arrow_down.png);
+}
+
+.accordion_toggle:checked + .accordion_target {
+  position: static;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  margin: auto;
+  clip: auto;
+  padding: 0;
+ /* задержка появления  функция анимации */
+ -webkit-animation:fadeIn ease-in 0.7s; 
+ -moz-animation:fadeIn ease-in 0.7s;
+ animation:fadeIn ease-in 0.7s;   
+}
+
+.grad_blue {
+	background-image: url(../images/grad_mobile.png);
+}
+.grad_light_blue {
+  background-color: #dbeefc;
+  color: #3b52a0;
+  font-size: 13px;
+}
+.grad_lighter_blue {
+	background-color: #f0f9fe;
+	color: #3b52a0;
+  	font-size: 13.5px;
+}
+.font_light {
+	font-weight: 200;
+}
+.border_bottom { 
+    border-bottom: 2px solid rgb(146, 164, 207);
+}
+/* анимация при появлении блоков с содержанием */
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+
+
+
+
+.arrow,
+.arrow_blue,
+.arrow_small_blue {
+    position: relative;
+    top: 0pt;
+    float: right;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    transform: rotate(90deg);
+    margin-right: 0.5em;
+    transition: ease-in 0.2s;
+}
+.arrow {
+	background-image: url(../images/arrow_right.png);
+}
+.arrow_blue {
+	background-image: url(../images/arrow_right_blue.png);
+}
+.actived {
+    transform: rotate(0deg) !important;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+	</style>
+</head>
+<body>
+
+<section class="top_mnu">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-12">
+
+					
+			
+	
+	<div id="sidebar" class="hidden-md hidden-lg hidden-sm">
+	
+<ul class="accordion">
+
+    <li class="accordion_item">
+        <label class="accordion_trigger grad_blue arrow_clicked" for="toggle-01">Products<span class="arrow"></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01" id="toggle-01"/>
+        <div class="accordion_target">
+          
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-1">Home Home and office<span class="arrow_blue"></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-1" id="toggle-01-1"/>
+        <div class="accordion_target accordion_target_bottom">
+
+            <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-1">Products for Windows<span class="arrow_blue "></span></label>
+<input type="checkbox" class="accordion_toggle" name="accordion-01-1-1" id="toggle-01-1-1"/>
+        <div class="accordion_target">
+        
+        <ul>
+        	<li><a href="#">Hard disk Manager</a></li>
+        	<li><a href="#">Hard Disk Manager 15 Professional</a></li>
+        	<li><a href="#">Drive Copy 15 Professional</a></li>
+        	<li><a href="#">Partition Manager 15</a></li>
+        	<li><a href="#">Backup & Recovery 15 Home</a></li>
+        	<li><a href="#">Disk Wiper 15 Professional</a></li>
+        	<li><a href="#">HFS+ for Windows 10</a></li>
+        	<li><a href="#">ExtFS for Windows</a></li>
+        </ul>
+        </div>
+
+		<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-2">Products for Mac<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-1-2" id="toggle-01-1-2"/>
+				<div class="accordion_target">
+					<ul>
+					<li><a href="#">NTFS for Mac 14</a></li>
+					<li><a href="#">Camptune X</a></li>
+					<li><a href="#">ExtFS for Mac 10</a></li>
+					<li><a href="#">2-in-1 Mac-Bundle</a></li>
+					<li><a href="#">3-in-1 Mac-Bundle</a></li>
+					<li><a href="#">Hard Disk Manager for Mac</a></li>
+					</ul>
+				</div>
+
+		<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-3">Software for Linux<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-1-3" id="toggle-01-1-3"/>
+				<div class="accordion_target">
+					<ul>
+					<li><a href="#">NTFS&HFS+ for Linux 9.4 Professional</a></li>
+					</ul>
+				</div>
+
+		<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-4">File System Drivers<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-1-4" id="toggle-01-1-4"/>
+				<div class="accordion_target">
+					<ul>
+					<li><a href="#">NTFS for Mac 14</a></li>
+					<li><a href="#">HFS+ for Windows 10</a></li>
+					<li><a href="#">2-in-1 Mac-Bundle</a></li>
+					<li><a href="#">ExtFS for Mac 10</a></li>
+					<li><a href="#">ExtFS for Windows</a></li>
+					</ul>
+				</div>
+
+
+
+
+        </div>
+
+		<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-2">Compare all products</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-2" id="toggle-01-2"/>
+        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-3">Mac Toolbox</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-3" id="toggle-01-3"/>
+        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-4">Student Discount</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-4" id="toggle-01-4"/>
+
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-5">Small Business<span class="arrow_blue "></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-5" id="toggle-01-5"/>
+        <div class="accordion_target grad_lighter_blue">
+					<ul>
+						<li><a href="#">Hard Disk Manager 15 Business</a></li>
+					</ul>
+		</div>
+		<label class="accordion_trigger grad_light_blue  border_bottom arrow_clicked" for="toggle-01-6">Medium & Large Business<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-6" id="toggle-01-6"/>
+				<div class="accordion_target grad_lighter_blue">
+					<ul>
+					<li><a href="#">Paragon Protect & Restore</a></li>
+					<li><a href="#">Hard Disk Manager 15 Premium</a></li>
+					<li><a href="#">Paragon Deployment Manager 11</a></li>
+					</ul>
+				</div>
+		<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-7">Where to buy<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-7" id="toggle-01-7"/>
+				<div class="accordion_target grad_lighter_blue">
+					<ul>
+					<li><a href="#">Find Resellers</a></li>
+					</ul>
+				</div>
+		<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-8">Technologies<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-8" id="toggle-01-8"/>
+				<div class="accordion_target grad_lighter_blue">
+					<ul>
+					<li><a href="#">Migrate OS to SSD 4.0</a></li>
+					<li><a href="#">GPT Loader</a></li>
+					<li><a href="#"> Paragon Alignment Tool</a></li>
+					<li><a href="#">Partition Manager Server</a></li>
+					<li><a href="#">Drive Backup Server</a></li>
+					<li><a href="#">Exchange Granular Recovery</a></li>
+					<li><a href="#">Snapshot for Mac OEM</a></li>
+					</ul>
+				</div>
+		<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-9">Free Software<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-9" id="toggle-01-9"/>
+				<div class="accordion_target grad_lighter_blue">
+					<ul>
+					<li><a href="#">Freeware (consumer)</a></li>
+					<li><a href="#">Admin Toolbox</a></li>
+					<li><a href="#"> Paragon Alignment Tool</a></li>
+					<li><a href="#">Partition Manager Server</a></li>
+					<li><a href="#">Drive Backup Server</a></li>
+					<li><a href="#">Exchange Granular Recovery</a></li>
+					<li><a href="#">Snapshot for Mac OEM</a></li>
+					</ul>
+				</div>
+
+
+
+
+
+        </div>
+
+
+		<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-02">Resources<span class="arrow"></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-02" id="toggle-02"/>
+        <div class="accordion_target">
+			<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-1">Home & Home Office<span class="arrow_blue"></span></label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-1" id="toggle-02-1"/>
+        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+        		<ul>
+        			<li><a href="#">Downloads</a></li>
+        			<li><a href="#">Manuals</a></li>
+        			<li><a href="#">License Overview</a></li>
+        		</ul>
+        	</div>
+        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-2">Small Business<span class="arrow_blue"></span></label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-2" id="toggle-02-2"/>
+        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+        		<ul>
+        			<li><a href="#">Downloads</a></li>
+        			<li><a href="#">Manuals</a></li>
+        			<li><a href="#">License Overview</a></li>
+        			<li><a href="#">Case Studies</a></li>
+        		</ul>
+        	</div>
+        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-3">Medium & Large Business<span class="arrow_blue"></span></label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-3" id="toggle-02-3"/>
+        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+        		<ul>
+        			<li><a href="#">Downloads</a></li>
+        			<li><a href="#">Manuals</a></li>
+        			<li><a href="#">License Overview</a></li>
+        			<li><a href="#">White Papers</a></li>
+        			<li><a href="#">Case Studies</a></li>
+        		</ul>
+        	</div>
+
+			
+
+        </div>
+		
+
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-03">Partners<span class="arrow"></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-03" id="toggle-03"/>
+			<div class="accordion_target">
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-1">For our partners<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-1" id="toggle-03-1"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<label class="accordion_trigger grad_lighter_blue arrow_clicked" for="toggle-03-3-1">Channel Partners<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-3-1" id="toggle-03-3-1"/>
+					<div class="accordion_target">
+						<ul>
+							<li><a href="#">Overview</a></li>
+							<li><a href="#">Training Webinars</a></li>
+						</ul>
+					</div>
+
+					<label class="accordion_trigger grad_lighter_blue arrow_clicked" for="toggle-03-3-2">Training Webinars<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-3-2" id="toggle-03-3-2"/>
+					<div class="accordion_target">
+						<ul>
+							<li><a href="#">Overview</a></li>
+							<li><a href="#">Promo Materials</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_lighter_blue " for="toggle-03-3-3">Tehnology Partner</span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-3-3" id="toggle-03-3-3"/>
+					
+					</div>
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-2">Where to buy<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-2" id="toggle-03-2"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Find Resellers</a></li>
+						<li><a href="#">Find Distribytors</a></li>
+					</ul>
+				</div>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-3">Contant us</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-3" id="toggle-03-3"/>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Partner login</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-4" id="toggle-03-4"/>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Become a Paragon Partner</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-4" id="toggle-03-4"/>
+				
+			</div>
+
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-04">Service & Support<span class="arrow"></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-04" id="toggle-04"/>
+			<div class="accordion_target">
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-4">Support Services<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-4" id="toggle-04-4"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Overview</a></li>
+					</ul>
+				</div>
+
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-5">Self Support<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-5" id="toggle-04-5"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Try our new Knowledge Base!</a></li>
+						<li><a href="#">Community Forum</a></li>
+						<li><a href="#">Support Forum</a></li>
+						<li><a href="#">Support FAQ</a></li>
+					</ul>
+				</div>
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-6">MyParagon<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-6" id="toggle-04-6"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Manage licenses</a></li>
+						<li><a href="#">Update products</a></li>
+						<li><a href="#">Edit profile</a></li>
+						<li><a href="#">Send request</a></li>
+					</ul>
+				</div>
+				<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-04-7">Sign in to MyParagon</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-7" id="toggle-04-7"/>
+
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-8">Update & Upgrade<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-8" id="toggle-04-8"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Product Upgrade & Update</a></li>
+						<li><a href="#">Upgrade Assurance</a></li>
+					</ul>
+				</div>
+
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-9">Beta Program<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-04-9" id="toggle-04-9"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Early Adopter Program</a></li>
+						<li><a href="#">Beta Testing Program</a></li>
+					</ul>
+				</div>
+
+			
+			</div>
+
+
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-05">Company<span class="arrow"></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-04" id="toggle-05"/>
+			<div class="accordion_target">
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-05-5">Paragon Software Group<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-05-5" id="toggle-05-5"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">About Company</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Employment</a></li>
+						<li><a href="#">Awards</a></li>
+					</ul>
+				</div>
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-05-6">Pressroom<span class="arrow_blue"></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-05-6" id="toggle-05-6"/>
+				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+					<ul>
+						<li><a href="#">Media Contacts</a></li>
+						<li><a href="#">Media Kits</a></li>
+						<li><a href="#">Employment</a></li>
+						<li><a href="#">Press releases</a></li>
+					</ul>
+				</div>
+				<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-05-7">Contacts</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-05-7" id="toggle-05-7"/>
+			</div>
+
+
+
+
+
+    </li>
+    </ul>
+
+
+
+
+
+
+	</div><!--end of sidebar-->
+
+
+
+	<div class="main-content hidden-md hidden-lg hidden-sm">
+		<a href="#" data-toggle=".container" id="sidebar-toggle" class="">
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+		</a>
+		<div class="row">
+			<img src="images/logo.png">
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+	
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium soluta numquam repellat odio atque nostrum quasi culpa, hic magnam commodi quo maiores fuga quis, sunt rem excepturi perferendis quidem ipsam. Quos error beatae saepe, distinctio quam accusantium delectus. Veniam labore, ad vel? Aliquid natus tempore maxime culpa officia, illum repellendus accusantium, sunt labore iste. Et, corporis ad? Neque unde eos fuga placeat corporis explicabo ad inventore officiis nemo quia nulla ea quae porro fugit, numquam ipsa nostrum minus enim ipsum. A dolor cupiditate dolorum pariatur hic porro non, ipsam quidem autem, culpa tempore illo adipisci doloribus totam illum nobis libero aut nam vel aliquam! Harum placeat nihil quasi delectus reprehenderit sequi ducimus voluptates dolores perspiciatis, consectetur omnis, eius cum, explicabo accusantium fugit dolorem enim. Ipsa, quo unde nesciunt nisi iusto sit sunt. Consequatur iste quibusdam ab mollitia deleniti enim a harum fuga, velit voluptatem magni accusantium ex dolores culpa! Pariatur et, quis saepe delectus amet ipsum non, est neque aspernatur at quaerat odit optio numquam earum, nihil repudiandae molestias vel consequatur voluptatibus. Soluta, possimus, itaque? Placeat commodi ab veniam nihil provident, incidunt totam, voluptate amet asperiores ratione quos tempore ex quidem reprehenderit dolorum culpa iusto hic voluptatem consectetur accusamus, recusandae molestiae id! Impedit odit expedita ipsam, ad autem, delectus aliquam facilis deserunt laboriosam dolor ab. Beatae excepturi commodi, cumque molestias neque at voluptas in, ipsum! Fugiat, eveniet sapiente neque quis recusandae atque repudiandae sequi excepturi vitae blanditiis beatae labore in dolorum perspiciatis dolore ducimus ipsam consequuntur nostrum doloribus eius nesciunt saepe debitis amet? Dignissimos soluta veritatis iure, voluptates possimus blanditiis suscipit a, animi incidunt eveniet sit fugiat! Numquam necessitatibus odit provident suscipit libero magni modi minus ipsam excepturi illum blanditiis labore explicabo impedit, odio, reprehenderit unde obcaecati cum voluptas quas ducimus! Libero nam eaque in, quod maiores asperiores, sapiente deleniti id totam atque ducimus deserunt quas temporibus ipsam illum debitis dignissimos facere, magnam distinctio quia laboriosam pariatur. Autem repellat animi, consequuntur quaerat, illo ad, labore dignissimos ex dicta aperiam nesciunt officia temporibus. Nam eum obcaecati hic, asperiores inventore quos quod iusto dignissimos impedit consequatur quae, ipsa, perspiciatis numquam necessitatibus. Illum in a qui libero eaque consectetur, placeat voluptatum, illo doloribus labore tempora molestias eius omnis ut. Perferendis vero iure doloribus, expedita quis pariatur blanditiis numquam voluptates, nobis magnam, minima rem voluptatum, corporis sit laborum reprehenderit non incidunt adipisci. Tempora molestias natus fuga, quo accusamus aliquid eveniet blanditiis. Nesciunt ducimus cum magnam quia atque. Ipsum unde illum quidem quis iste ut iusto in doloremque sint. Alias dolore magni veniam obcaecati reprehenderit, repudiandae quos assumenda quia eveniet soluta quisquam hic dolor unde, incidunt quam praesentium sit error autem aspernatur, quod vel aut rem, facilis? Atque accusantium architecto optio quibusdam similique incidunt, sunt fuga deserunt repellendus laborum voluptate eveniet soluta consectetur, iusto hic laboriosam omnis fugit, nemo assumenda inventore. In, sit tempora soluta itaque omnis voluptatum molestiae earum animi ab dolore similique modi sunt magnam ex labore minima expedita sequi a facilis! Mollitia ipsa quia sunt hic neque porro sequi et rem rerum corporis dolorem nemo in at non vel, animi eius quae est. Saepe dolor quae vitae est provident, tenetur quo molestiae. Ut blanditiis, quod possimus, aut, aliquam error ullam assumenda illo tenetur qui voluptate neque! Velit dolores temporibus aspernatur, expedita error quis non asperiores, quod. Sit quasi iure officia reprehenderit autem aperiam, neque facere aspernatur, eligendi illo minima, ut, quibusdam recusandae nulla. Nam dicta vel assumenda in a est amet ex odio rerum veniam quam optio cupiditate, unde vitae quia sint repudiandae excepturi. Vel fugit facere, incidunt laborum. Necessitatibus modi in earum, consequuntur, vel optio quisquam cumque laboriosam veritatis eligendi ut laudantium quaerat dolor. Animi cupiditate asperiores aspernatur est vero nam vel doloribus ipsum molestiae voluptatibus voluptas distinctio, numquam tenetur ad perspiciatis nisi molestias velit. Fugit quisquam blanditiis officia quae atque, ut minus nobis dicta nulla est dignissimos impedit voluptatibus illum sunt dolorum ratione corporis, enim nisi neque labore rem, quaerat facere. Sequi quaerat maiores natus pariatur ratione repellendus deleniti incidunt doloremque voluptatem sint, asperiores rem alias enim atque suscipit id cupiditate eveniet quae. Assumenda delectus, vitae. Quidem reprehenderit repellendus blanditiis molestias rem odit aut cumque at saepe veritatis quod ad sit ab repellat quas placeat a nihil, earum animi numquam illum iste, autem enim? Illo fuga voluptatibus dolores, accusantium placeat sit numquam, laborum adipisci, est cum impedit maxime repudiandae, necessitatibus obcaecati odio dignissimos laudantium neque. Iste reprehenderit, cupiditate alias! Eum beatae quasi maxime recusandae excepturi, molestiae commodi rerum eaque. Rerum, eum. Sequi blanditiis porro, quia at vero excepturi sed, tenetur alias, ipsam in, ut dolorum culpa eius! Impedit iure numquam rem, cum veniam similique modi nam delectus consequuntur possimus accusantium, fuga ad sint doloribus magni voluptatem saepe laudantium architecto unde. Temporibus aliquid possimus natus pariatur doloremque voluptatibus nostrum, dolor non quam neque accusamus maiores architecto perspiciatis consequatur assumenda amet provident quibusdam beatae veniam. Dolor deleniti deserunt, eveniet dolores eaque sint quia odio voluptatum voluptatem ducimus blanditiis earum, quo veritatis maiores inventore nostrum praesentium, dicta molestias animi est laudantium velit rem a enim! Error nesciunt porro perspiciatis, laboriosam id reprehenderit pariatur aliquid rem modi consequatur recusandae iusto doloremque est harum delectus quisquam dicta tenetur exercitationem iure repudiandae. Fugiat maxime impedit molestiae, quibusdam earum nobis ad repellendus fuga dolore. Porro corporis qui natus repudiandae ullam esse, rerum provident, error quis pariatur, dicta voluptatum suscipit molestias doloribus quia neque quos alias ex est dolores asperiores ipsum! Rem distinctio dolorem cumque cupiditate magni magnam perspiciatis, doloremque itaque quaerat minima molestiae accusantium qui saepe alias aspernatur porro repudiandae fuga ullam debitis, delectus, maxime deserunt quibusdam modi? Aperiam expedita unde saepe cumque iure aspernatur, alias cupiditate assumenda sint suscipit beatae culpa ab delectus minima esse commodi provident eum vitae quas eos, in consequuntur earum fuga accusamus nemo! Reiciendis cum nesciunt soluta officia ad nulla eligendi ipsum, quos alias sequi culpa! Sed inventore quam, similique ullam. Explicabo consequatur, molestiae magnam, tenetur, praesentium vero iure perferendis, eius beatae veniam officiis excepturi quaerat numquam modi. Magnam laudantium nihil, dolore, commodi suscipit velit nesciunt quidem nemo asperiores fuga delectus, obcaecati.</p>
+			</div>
+		</div>
+	</div>
+</section>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script>
+		
+$(window).load(function(){
+	$("[data-toggle]").click(function() {
+	var toggle_el = $(this).data("toggle");
+	$(toggle_el).toggleClass("open-sidebar");
+	});
+});
+
+$('.arrow_clicked').click(function () {
+	$(this).find('span').toggleClass('actived');
+});
+
+	</script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
