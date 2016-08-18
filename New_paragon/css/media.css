@@ -1,0 +1,682 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main_mnu a {
+		padding: 10px 43px 10px 43px;
+	}
+	.switches a {
+		padding: 10px 60px 10px 60px;
+	}
+	.lngTitle {
+		text-align: center;
+		margin: 39px 0px 31px 0px;
+	}
+	.block1,
+	.block12,
+	.block13,
+	.block16,
+	.block123 {
+		margin-right: 12px;
+	}
+	.ntfs {
+		background-image: url(../images/bg_small.png);
+		height: 440px;
+	}
+	.main_mnu a.separate_link {
+        padding: 10px 46px 10px 46px;
+	}
+	.menu .submenu {
+		left: 10%;
+	}
+	.menu .company {
+		left: 21%;
+	}
+	.menu .service {
+		left: 16%;
+	}
+	.menu .products {
+		left: 2%;
+	}
+	.menu .products::before {
+		left: 8%;
+	}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.account,
+	
+	
+	.descr,
+	.aword {
+		display: none;
+	}
+
+	.main_mnu a.separate_link {
+        padding: 10px 24px 10px 24px;
+	}
+
+	.menu .resources {
+    	left: 0;
+    	width: 100%;
+	}
+	.resources .f_left {
+    	margin-right: 0px;
+	}
+	.menu .products {
+		width: 100%;
+	}
+	.products .f_left {
+		margin-right: 16px;
+		margin-left: 6px;
+	}
+	.menu .submenu:before {
+    	left: 45%;
+    }
+    .menu .company:before {
+ 	   left: 89%;
+	}
+	.menu .resources:before {
+    	left: 27%;
+	}
+	.menu .products:before {
+    	left: 77px;
+	}
+	.products .p_top {
+		width: 184px;
+	}
+	.products .second_line:before {
+		left: 63%;
+	}
+	.products .line:before {
+    	left: 28%;
+	}
+	.menu .submenu {
+		width: 100%;
+		left: 0;
+	}
+	.line:before {
+		left: 45%;
+	}
+	.service .f_left {
+    	margin-right: 18px;
+    }
+    .menu .service:before {
+    	left: 67%;
+    }
+	.switches a {
+    	padding: 10px 32px 10px 32px;
+	}
+	.switches_descr li a {
+		padding-left: 20px;
+	}
+	.switches_descr li.active a {
+		background: background: linear-gradient(to top, #e95045, #ed7476);
+	}
+	.bunner_descr {
+		width: 70%;
+	}
+	.bunner_buttons {
+		display: none;
+	}
+	.buy {
+		margin: 0;
+    	position: absolute;
+    	top: 40px;
+    	right: 100px;
+    	float: none;
+	}
+	.ntfs {
+		height: 460px;
+	}
+	/*Стили для таблицы*/
+	table th, table td {
+    	border-top: none;
+    	border-bottom: none;
+    	background: transparent;
+    }
+
+    table {
+    	border: 0;
+    }
+
+    table thead {
+    	display: none;
+    }
+
+    table tr {
+    	margin-bottom: 10px;
+    	display: block;
+    	/*border-bottom: 1px solid #878787;*/
+    }
+
+    table td {
+    	display: block;
+    	text-align: right;
+    	font-size: 16px;
+    	border-bottom: 1px solid #595757;
+    	padding: 15px 10px;
+    }
+
+    table td:last-child {
+    	border-bottom: 0;
+    }
+
+    table td:before {
+    	content: attr(data-label);
+    	float: left;
+    	color: #595757;
+    	font-weight: bold;
+
+    }
+    .bord_right {
+		border-right: none;
+	}
+	.download {
+		text-align: right;
+	}
+	table ul {
+		text-align: right;
+	}
+	.name_left {
+		text-align: left;
+		border-top: 1px solid #595757;
+	}
+	/*--------*/
+
+
+	.title {
+		text-align: left;
+		margin-left: 20px;
+	}	
+	.block1,
+	.block12,
+	.block13,
+	.block16 {
+		float: none;
+		margin-top: 20px;
+		
+	}
+	.block_1,
+	.block_2,
+	.block_3 {
+		float: left;
+	}
+	.block_3,
+	.block112 {
+		margin-top: 20px;
+	}
+	.blocks {
+		margin-left: 68px;
+	}
+	.block_1,
+	.block_2 {
+		margin-right: 55px;
+	}
+	.block112,
+	.block123 {
+		margin-top: 38px;
+	}
+	.footer {
+		height: 700px;
+	}
+	.lngTitle {
+		float: right;
+		width: 377px;
+		margin-top: 43px;
+		margin-right: 5px;
+	}
+	.logo {
+		width: 300px;
+		float: left;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.ntfs {
+		background-image: url(../images/bg_smart.png);
+	}
+	.switches {
+		height: 195px;
+	}
+	.switches ul li {
+		display: inline;
+	}
+	.switches a {
+		padding: 15px 50px 11px 65px;
+	}
+	.buttons_hidden {
+		position: absolute;
+		margin-top: 127px;
+		right: 21px;
+	}
+	.buy {
+		float: right;
+	}
+	.button_buy {
+		margin-top: 350px;
+		right: 24px;
+		position: absolute;
+		margin-top: 353px;
+		right: 22px;
+	}
+	.all_buttons {
+		width: 129px;
+		margin-top: 15px;
+	}
+	.test {
+		margin-top: 20px;
+	}
+	.bunner_descr ul {
+		display: none;
+	}
+	.bunner_descr h1 {
+		font-size: 30px;
+	}
+	.bunner_descr h2 {
+    	margin-top: 252px;
+    	text-align: center;
+	}
+	.switches li a {
+    	background-image: none;
+    }
+    .switches li.active a {
+    	color: #969696;
+    }
+
+	.block_1,
+	.block_2,
+	.block_3,
+	.block1, 
+	.block12, 
+	.block13, 
+	.block14, 
+	.block123, 
+	.block16 {
+    	float: none;
+    	width: 100%;
+	}
+	.footer {
+		height: 1727px;
+	}
+	.footer_line {
+	background-image: url(../images/footer_line.png);
+	height: 2px;
+	margin-bottom: 10px;
+	}
+	.blocks {
+		font-size: 20px;
+    	padding: 50px 25px;
+    	margin: 0;
+	}
+
+
+	.hide {
+    	display: none; 
+	}
+	.hide_arrow {
+		display: none;
+	}
+	.hide + label ~ div{
+	    display: none;
+	}
+	/* оформляем текст label */
+	.hide + label {
+	    padding: 0;
+	    color: #c4d6f0;
+	    font-weight: 600;
+	    cursor: pointer;
+	    display: inline-block;
+	}
+	
+	/* вид текста label при активном переключателе */
+	.hide:checked + label {
+	    border-bottom: 0;
+	}
+	
+	
+	/* когда чекбокс активен показываем блоки с содержанием  */
+	.hide:checked + label + div {
+	    display: block; 
+	}
+	.none {
+		color: #c4d6f0;
+	}
+
+	/* demo контейнер */
+	
+	.block112, .block123 {
+    	margin-top: 0px;
+	}
+	.block1, .block12, .block13, .block16 {
+    	float: none;
+    	margin-top: 0px;
+	}
+	.block_3 {
+		margin-top: 0;
+	}
+	.block1, .block12, .block13, .block16, .block123, .block112, .block14 {
+    	padding-top: 10px;
+	}
+	.buy {
+		width: 27%;
+		position: static;
+	}
+	.bunner_descr {
+		width: 100%;
+	}
+	.button_buy {
+    	margin-top: 0px;
+    	right: 20px;
+    	position: absolute;
+    	margin-top: 0px;
+	}
+
+.main_mnu {
+		display: none;
+	}
+	.top_mnu {
+		background-image: none;
+	}
+	*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+.container {
+position: relative;
+height: 100%;
+width: 100%;
+right: 0;
+-webkit-transition:  right 0.4s ease-in-out;
+-moz-transition:  right 0.4s ease-in-out;
+-ms-transition:  right 0.4s ease-in-out;
+-o-transition:  right 0.4s ease-in-out;
+transition:  right 0.4s ease-in-out;
+}
+
+.container.open-sidebar {
+right: 240px;
+}
+
+#sidebar {
+position: absolute;
+right: -262px;
+background: #233581;
+width: 248px;
+height: 3855px;
+box-sizing: border-box;
+box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+.main-content {
+width: 100%;
+height: 100%;
+padding: 10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+position: relative;
+}
+
+/*knopka*/
+.main-content #sidebar-toggle {
+background: #233581;
+border-radius: 3px;
+display: block;
+position: relative;
+padding: 10px 7px;
+float: right;
+}
+.main-content #sidebar-toggle .bar{
+ display: block;
+width: 18px;
+margin-bottom: 3px;
+height: 2px;
+background-color: #fff;
+border-radius: 1px;   
+}
+.main-content #sidebar-toggle .bar:last-child{
+ margin-bottom: 0;   
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion_item {
+  border-bottom: 1px solid #5a95fd;
+}
+.accordion_item:last-of-type {
+  border-bottom: none;
+}
+
+/**
+ * Элемент label который запускает открыть/закрыть.
+ */
+.accordion_trigger {
+  display: block;
+  background-color: #007ccf;
+  color: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 21px;
+  font-size: 15px;
+}
+
+/**
+ * эти элементы radio/checkbox всегда должны быть скрыты.
+ */
+.accordion_toggle {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/**
+ * скрытое содержание аккордеона.
+ */
+.accordion_target {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  color: #444;   
+}
+.accordion_target_bottom {
+	border-bottom: 2px solid #bdcee6;
+}
+.accordion_target p {
+	margin: 0;
+}
+.accordion_target ul {
+  line-height: 2.5;
+  padding-left: 30px;
+}
+.accordion_target ul li {
+  color: #3b53a0;
+  list-style: disc;
+  font-size: 12px;
+  font-weight: 200;
+}
+.accordion_target ul li a {
+    color: #3b52a0;
+    text-decoration: none;
+}
+/**
+* когда переключатель checked на radio/checkbox, показать содержимое аккордеона.
+*/
+
+.accordion_toggle:checked + .accordion_target {
+  position: static;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  margin: auto;
+  clip: auto;
+  padding: 0;
+ /* задержка появления  функция анимации */
+ -webkit-animation:fadeIn ease-in 0.7s; 
+ -moz-animation:fadeIn ease-in 0.7s;
+ animation:fadeIn ease-in 0.7s;   
+}
+
+.grad_blue {
+	background-image: url(../images/grad_mobile.png);
+}
+.grad_light_blue {
+  background-color: #dbeefc;
+  color: #3b52a0;
+  font-size: 13px;
+}
+.grad_lighter_blue {
+	background-color: #f0f9fe;
+	color: #3b52a0;
+  	font-size: 13.5px;
+}
+.font_light {
+	font-weight: 200;
+}
+.border_bottom { 
+    border-bottom: 2px solid rgb(146, 164, 207);
+}
+/* анимация при появлении блоков с содержанием */
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+
+
+
+
+.arrow,
+.arrow_blue,
+.arrow_footer {
+    position: relative;
+    top: 0pt;
+    float: right;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    transform: rotate(90deg);
+    margin-right: 0.5em;
+    transition: ease-in 0.2s;
+}
+.arrow {
+	background-image: url(../images/arrow_right.png);
+}
+.arrow_blue {
+	background-image: url(../images/arrow_right_blue.png);
+}
+.arrow_footer {
+	background-image: url(../images/arrow_footer.png);
+	left: 5px;
+	top: 8px;
+}
+.actived {
+    transform: rotate(0deg) !important;
+}
+.top_mnu {
+	margin-bottom: 26px;
+}
+#sidebar-toggle {
+	margin-top: 10px;
+}
+.arrow_up {
+	text-align: center;
+	margin-top: 30px;
+}
+.blocks {
+	font-size: 18px;
+}
+.non p,
+.non a {
+	font-size: 16px;
+}
+.footer {
+		height: 1727px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.bunner_descr h1 {
+		font-size: 27px;
+	}
+	.bunner_descr h2 {
+		margin-top: 275px;
+		font-size: 12px;
+	}
+	.blocks {
+		font-size: 18px;
+	}
+	.non p,
+	.non a {
+		font-size: 15px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.bunner_descr h1 {
+		font-size: 21px;
+	}
+	.bunner_descr h2 {
+		font-size: 10px;
+	}
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
