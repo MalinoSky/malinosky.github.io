@@ -587,7 +587,7 @@ to { opacity: 1 }
     background-repeat: no-repeat;
     width: 17px;
     height: 17px;
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
     margin-right: 0.5em;
     transition: ease-in 0.2s;
 }
@@ -600,7 +600,7 @@ to { opacity: 1 }
 .arrow_footer {
 	background-image: url(../images/arrow_footer.png);
 	left: 5px;
-	top: 0px;
+	top: 8px;
 }
 .actived {
     transform: rotate(0deg) !important;
