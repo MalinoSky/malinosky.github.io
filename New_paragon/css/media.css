@@ -395,9 +395,9 @@ right: 0;
 transition:  right 0.4s ease-in-out;
 }
 
-/*.container.open-sidebar {
+.container.open-sidebar {
 right: 240px;
-}*/
+}
 
 #sidebar {
 position: absolute;
@@ -496,6 +496,9 @@ border-radius: 1px;
 }
 .accordion_target_bottom {
 	border-bottom: 2px solid #bdcee6;
+}
+.accordion_target p {
+	margin: 0;
 }
 .accordion_target ul {
   line-height: 2.5;
