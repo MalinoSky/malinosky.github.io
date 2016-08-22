@@ -47,11 +47,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.account,
-	
-	
-	.descr,
-	.aword {
+	.account {
 		display: none;
 	}
 
@@ -323,9 +319,6 @@ overflow-x:hidden;
 	.hide {
     	display: none; 
 	}
-	.hide_arrow {
-		display: none;
-	}
 	.hide + label ~ div{
 	    display: none;
 	}
@@ -348,9 +341,7 @@ overflow-x:hidden;
 	.hide:checked + label + div {
 	    display: block; 
 	}
-	.none {
-		color: #c4d6f0;
-	}
+
 
 	/* demo контейнер */
 	
@@ -404,9 +395,9 @@ right: 0;
 transition:  right 0.4s ease-in-out;
 }
 
-.container.open-sidebar {
+/*.container.open-sidebar {
 right: 240px;
-}
+}*/
 
 #sidebar {
 position: absolute;
@@ -505,9 +496,6 @@ border-radius: 1px;
 }
 .accordion_target_bottom {
 	border-bottom: 2px solid #bdcee6;
-}
-.accordion_target p {
-	margin: 0;
 }
 .accordion_target ul {
   line-height: 2.5;
