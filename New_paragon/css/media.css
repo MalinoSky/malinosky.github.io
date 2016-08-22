@@ -599,8 +599,8 @@ to { opacity: 1 }
 }
 .arrow_footer {
 	background-image: url(../images/arrow_footer.png);
-	left: 32px;
-	top: 5px;
+	left: 5px;
+	top: 0px;
 }
 .actived {
     transform: rotate(0deg) !important;
