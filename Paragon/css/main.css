@@ -1016,12 +1016,12 @@ height: 43px;
     box-shadow: none;
     border: none;
     left: 0;
-    background: ;
+    /*background: ;
     -webkit-transform: translatez(0);
     -moz-transform: translatez(0);
     -ms-transform: translatez(0);
     -o-transform: translatez(0);
-    transform: translatez(0);
+    transform: translatez(0);*/
 }
 
 .support_img img {
