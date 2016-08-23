@@ -362,8 +362,16 @@
 		<script src="libs/sidr/jquery.sidr.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="//cdn.jsdelivr.net/jquery.touchswipe/1.6.15/jquery.touchSwipe.min.js"></script>
-
 <script>
+        $(document).ready(function() {
+            $('.main-content').sidr({
+                name: 'sidr-right',
+                side: 'right'
+            });
+        });
+    </script>
+<script>
+
     $('body').swipe( {
         //Single swipe handler for left swipes
         swipeLeft: function () {
@@ -376,14 +384,7 @@
         threshold: 45
     });
 </script>
-	<!--<script>
-        $(document).ready(function() {
-            $('.main-content').sidr({
-                name: 'sidr-right',
-                side: 'right'
-            });
-        });
-    </script>-->
+	
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
