@@ -617,7 +617,7 @@ to { opacity: 1 }
 .arrow_blue,
 .arrow_footer {
     position: relative;
-    top: 0pt;
+    top: 0;
     float: right;
     display: inline-block;
     background-repeat: no-repeat;
@@ -627,6 +627,10 @@ to { opacity: 1 }
     margin-right: 0.5em;
     transition: ease-in 0.2s;
 }
+.arrow_footer {
+	height: 12px;
+	width: 12px;
+}
 .arrow {
 	background-image: url(../images/arrow_right.png);
 }
@@ -634,7 +638,7 @@ to { opacity: 1 }
 	background-image: url(../images/arrow_right_blue.png);
 }
 .actived {
-    transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important	
 }
 
 /*-------End Sidr Menuu-------*/
