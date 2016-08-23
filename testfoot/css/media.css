@@ -104,7 +104,7 @@ to { opacity: 1 }
 
 
 
-.arrow,
+/*.arrow,
 .arrow_blue,
 .arrow_footer {
     position: relative;
@@ -174,7 +174,7 @@ to { opacity: 1 }
 }
 .footer {
 		
-}
+}/*
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
