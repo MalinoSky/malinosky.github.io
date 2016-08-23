@@ -85,7 +85,7 @@
 		margin-top: 0;
 	}
 	.block1, .block12, .block13, .block16, .block123, .block112, .block14 {
-    	padding-top: 10px;
+    	/*padding-top: 10px;*/
 	}
 /* анимация при появлении блоков с содержанием */
 @-moz-keyframes fadeIn {
