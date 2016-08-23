@@ -638,7 +638,12 @@ to { opacity: 1 }
 	background-image: url(../images/arrow_right_blue.png);
 }
 .actived {
-    transform: rotate(0deg) !important	
+    -moz-transform: rotate(0deg) !important; /* Для Firefox */
+    -ms-transform: rotate(0deg) !important; /* Для IE */
+    -webkit-transform: rotate(0deg) !important; /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(0deg) !important; /* Для Opera */
+    transform: rotate(0deg) !important;
+	
 }
 
 /*-------End Sidr Menuu-------*/
