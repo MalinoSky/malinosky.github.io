@@ -1,0 +1,216 @@
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+/*-------Sidr Menuu-------*/
+@media only screen and (max-width : 767px) {
+.sidr{
+	display:none;
+	position:absolute;
+	position:fixed;
+	top:0;
+	height:100%;
+	z-index:999999;
+	width:260px;
+	overflow-x:none;
+	overflow-y:auto;
+	font-size:15px;
+	background:#233581;
+	color:#fff;
+	
+}
+.sidr.right{
+	left:auto;
+	right:-260px
+}
+
+.main-content {
+width: 100%;
+height: 100%;
+padding: 10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+position: relative;
+}
+
+/*knopka*/
+.main-content #right-menu {
+background: #233581;
+border-radius: 3px;
+display: block;
+position: relative;
+padding: 10px 7px;
+float: right;
+}
+.main-content #right-menu .bar{
+ display: block;
+width: 18px;
+margin-bottom: 3px;
+height: 2px;
+background-color: #fff;
+border-radius: 1px;   
+}
+.main-content #right-menu .bar:last-child{
+ margin-bottom: 0;   
+}
+
+
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion_item {
+  border-bottom: 1px solid #5a95fd;
+}
+.accordion_item:last-of-type {
+  border-bottom: none;
+}
+
+/**
+ * Элемент label который запускает открыть/закрыть.
+ */
+.accordion_trigger {
+  display: block;
+  background-color: #007ccf;
+  color: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 21px;
+  font-size: 15px;
+}
+
+/**
+ * эти элементы radio/checkbox всегда должны быть скрыты.
+ */
+.accordion_toggle {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/**
+ * скрытое содержание аккордеона.
+ */
+.accordion_target {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  color: #444;   
+}
+.accordion_target_bottom {
+	border-bottom: 2px solid #bdcee6;
+}
+.accordion_target p {
+	margin: 0;
+}
+.accordion_target ul {
+  line-height: 2.5;
+  padding-left: 30px;
+}
+.accordion_target ul li {
+  color: #3b53a0;
+  list-style: disc;
+  font-size: 12px;
+  font-weight: 200;
+}
+.accordion_target ul li a {
+    color: #3b52a0;
+    text-decoration: none;
+}
+/**
+* когда переключатель checked на radio/checkbox, показать содержимое аккордеона.
+*/
+.accordion_toggle:after {
+	background-image: url(../images/arrow_down.png);
+}
+
+.accordion_toggle:checked + .accordion_target {
+  position: static;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  margin: auto;
+  clip: auto;
+  padding: 0;
+ /* задержка появления  функция анимации */
+ -webkit-animation:fadeIn ease-in 0.7s; 
+ -moz-animation:fadeIn ease-in 0.7s;
+ animation:fadeIn ease-in 0.7s;   
+}
+
+.grad_blue {
+	background-image: url(../images/grad_mobile.png);
+}
+.grad_light_blue {
+  background-color: #dbeefc;
+  color: #3b52a0;
+  font-size: 13px;
+}
+.grad_lighter_blue {
+	background-color: #f0f9fe;
+	color: #3b52a0;
+  	font-size: 13.5px;
+}
+.font_light {
+	font-weight: 200;
+}
+.border_bottom { 
+    border-bottom: 2px solid rgb(146, 164, 207);
+}
+/* анимация при появлении блоков с содержанием */
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+
+
+
+
+.arrow,
+.arrow_blue,
+.arrow_footer {
+    position: relative;
+    top: 0pt;
+    float: right;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    transform: rotate(90deg);
+    margin-right: 0.5em;
+    transition: ease-in 0.2s;
+}
+.arrow {
+	background-image: url(../images/arrow_right.png);
+}
+.arrow_blue {
+	background-image: url(../images/arrow_right_blue.png);
+}
+.actived {
+    transform: rotate(0deg) !important;
+}
+}
+
+/*-------End Sidr Menuu-------*/
