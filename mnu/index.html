@@ -363,6 +363,9 @@
 	<script>
     $('body').swipe( {
         //Single swipe handler for left swipes
+        swipeLeft: function () {
+            $.sidr('open', 'sidr-right');
+        },
         swipeRight: function () {
             $.sidr('close', 'sidr-right');
         },
