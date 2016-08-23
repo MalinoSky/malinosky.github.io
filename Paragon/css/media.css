@@ -660,9 +660,9 @@ to { opacity: 1 }
 	top: 8px;
 	margin: 0;
 }
-.actived {
+/*.actived {
     transform: rotate(0deg) !important;
-}
+}*/
 .top_mnu {
 	margin-bottom: 26px;
 }
