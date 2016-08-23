@@ -107,7 +107,7 @@ to { opacity: 1 }
 .arrow,
 .arrow_blue,
 .arrow_footer {
-    position: relative;
+   /* position: relative;*/
     top: 0;
     float: right;
     display: inline-block;
