@@ -53,7 +53,7 @@
 	/* оформляем текст label */
 	.hide + label {
 	    padding: 0;
-	    color: #000;
+	    color: #c4d6f0;
 	    font-weight: 600;
 	    cursor: pointer;
 	    display: inline-block;
