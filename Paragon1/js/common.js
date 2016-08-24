@@ -1,9 +1,3 @@
-$(document).ready(function() {
-            $('.main-content').sidr({
-                name: 'sidr-right',
-                side: 'right'
-            });
-        });
 $(document).ready(function(){
   $('.bxslider').bxSlider();
 });
