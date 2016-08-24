@@ -108,6 +108,7 @@
 .arrow_footer {
 	height: 12px;
 	width: 12px;
+	margin: 0;
 }
 .arrow {
 	background-image: url(../images/arrow_right.png);
