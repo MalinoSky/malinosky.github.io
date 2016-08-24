@@ -295,8 +295,9 @@ input[name="search"] {
  	border-radius: 8px;
  	line-height: 20px;
 	position: relative;	
-	background: -webkit-linear-gradient(bottom left, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
-	background: -o-linear-gradient(bottom left, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background: -webkit-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background: -o-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	/*Добавить стиль*/background: -ms-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* для IE10+ */ 
 	background: linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
 	margin-top: 54px;
 	margin-right: 38px;
@@ -328,7 +329,14 @@ input[name="search"] {
  	text-align: left;
  	border-radius: 8px;
  	line-height: 20px;
-	position: relative;	
+	position: relative;
+	/*--Удалить--*/	
+	/*background: linear-gradient(to top, #3b52a0, #6679b9);*/
+	/*---*/
+	/*Добавить стиль*/
+	background: -webkit-linear-gradient(to top, #3b52a0, #6679b9);
+	background: -o-linear-gradient(to top, #3b52a0, #6679b9);
+	/*Добавить стиль*/background: -ms-linear-gradient(to top, #3b52a0, #6679b9); /* для IE10+ */ 
 	background: linear-gradient(to top, #3b52a0, #6679b9);
 	color: #fff;
 }
