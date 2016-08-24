@@ -88,6 +88,11 @@
 	.block1, .block12, .block13, .block16, .block123, .block112, .block14 {
     	/*padding-top: 10px;*/
 	}
+	.block1 a, .block12 a, .block13 a, .block1 p, .block12 p, .block13 p, .block14 p, .block14 a, .block123 a, .block123 p, .block16 a, .block16 p {
+    color: #c4d6f0;
+    margin: 0;
+    padding: 0;
+	}
 .arrow,
 .arrow_blue,
 .arrow_footer {
