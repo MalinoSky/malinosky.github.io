@@ -164,9 +164,19 @@ input[name="search"] {
 	position: relative;	
 	margin-top: 15px;
     background: transparent;
-	background: -webkit-linear-gradient(bottom left, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	/*Удалить стили*/
+	/*background: -webkit-linear-gradient(bottom left, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
 	background: -o-linear-gradient(bottom left, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
-	background: linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	background: linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);*/
+	/*--*/
+
+	background: #999; /* for non-css3 browsers */
+	background: transparent;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); для IE6-9 */
+	background: -webkit-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* для webkit-браузеров */
+	background: -moz-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* для firefox 3.6+ */
+	background: -o-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* для Opera 11.10+ */
+	background: -ms-linear-gradient(to top right, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* для IE10+ */ 
 }
 
 .buy {
