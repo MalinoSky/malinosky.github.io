@@ -1009,6 +1009,8 @@ height: 43px;
 	border: none;
 	color: #fff;
 	text-align: center;
+	background: -webkit-linear-gradient(bottom, #e95045, #ed7476);
+	background: -o-linear-gradient(bottom, #e95045, #ed7476);
 	background: linear-gradient(to top, #e95045, #ed7476);
 	padding: 5px 25px;
 }
