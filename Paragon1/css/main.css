@@ -328,9 +328,11 @@ input[name="search"] {
  	text-align: left;
  	border-radius: 8px;
  	line-height: 20px;
-	position: relative;	
+	position: relative;
+	/*--Доюавить стили--*/	
 	background: -webkit-linear-gradient(bottom, #3b52a0, #6679b9);
 	background: -o-linear-gradient(bottom, #3b52a0, #6679b9);
+	/*---*/
 	background: linear-gradient(to top, #3b52a0, #6679b9);
 	color: #fff;
 }
@@ -1009,8 +1011,10 @@ height: 43px;
 	border: none;
 	color: #fff;
 	text-align: center;
+	/*--Добавить стили--*/
 	background: -webkit-linear-gradient(bottom, #e95045, #ed7476);
 	background: -o-linear-gradient(bottom, #e95045, #ed7476);
+	/*---*/
 	background: linear-gradient(to top, #e95045, #ed7476);
 	padding: 5px 25px;
 }
