@@ -464,7 +464,11 @@ position: relative;
 padding: 10px 7px;
 float: right;
 margin-right: 8px;
-margin-top: 11px;
+/*--Удалить стиль--*/
+/*margin-top: 11px;*/
+/*---*/;
+/*--Добавить стиль--*/
+margin-top: 15px;
 }
 .main-content #right-menu .bar{
  display: block;
