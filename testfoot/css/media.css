@@ -32,11 +32,11 @@
 	.footer_line {
 	background-image: url(../images/footer_line.png);
 	height: 2px;
-	/*margin-bottom: 10px;*/
+	margin-bottom: 10px;
 	}
 	.blocks {
 		font-size: 20px;
-    	/*padding: 50px 25px;*/
+    	padding: 50px 25px;
     	margin: 0;
 	}
 
@@ -86,7 +86,7 @@
 		margin-top: 0;
 	}
 	.block1, .block12, .block13, .block16, .block123, .block112, .block14 {
-    	/*padding-top: 10px;*/
+    	padding-top: 10px;
 	}
 	.block1 a, .block12 a, .block13 a, .block1 p, .block12 p, .block13 p, .block14 p, .block14 a, .block123 a, .block123 p, .block16 a, .block16 p {
     color: #c4d6f0;
