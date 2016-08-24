@@ -90,7 +90,7 @@
 .arrow,
 .arrow_blue,
 .arrow_footer {
-   /* position: relative;*/
+   position: relative;
     top: 0;
     float: right;
     display: block;
@@ -109,6 +109,7 @@
 	height: 12px;
 	width: 12px;
 	margin: 0;
+	top: 5px;
 }
 .arrow {
 	background-image: url(../images/arrow_right.png);
