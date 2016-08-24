@@ -330,6 +330,9 @@ input[name="search"] {
  	line-height: 20px;
 	position: relative;	
 	background: linear-gradient(to top, #3b52a0, #6679b9);
+	background: -webkit-linear-gradient(to top, #3b52a0, #6679b9);
+	background: -o-linear-gradient(to top, #3b52a0, #6679b9);
+	background: linear-gradient(to top, #3b52a0, #6679b9);
 	color: #fff;
 }
 .button_name_span {
