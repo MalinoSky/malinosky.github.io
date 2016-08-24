@@ -4,19 +4,6 @@ $(document).ready(function() {
                 side: 'right'
             });
         });
-$('body').swipe( {
-		//Single swipe handler for left swipes
-		swipeRight: function () {
-		    $.sidr('close', 'sidr-right');
-		},
-
-
-		//Default is 75px, set to 0 for demo so any distance triggers swipe
-		threshold: 45
-		});
-
-
-
 $(document).ready(function(){
   $('.bxslider').bxSlider();
 });
