@@ -329,10 +329,9 @@ input[name="search"] {
  	border-radius: 8px;
  	line-height: 20px;
 	position: relative;	
+	background: -webkit-linear-gradient(bottom, #3b52a0, #6679b9);
+	background: -o-linear-gradient(bottom, #3b52a0, #6679b9);
 	background: linear-gradient(to top, #3b52a0, #6679b9);
-	background: -webkit-linear-gradient(to top, rgba(59, 82, 160), rgba(102, 121, 185));
-	background: -o-linear-gradient(to top, rgba(59, 82, 160), rgba(102, 121, 185));
-	background: linear-gradient(to top, rgba(59, 82, 160), rgba(102, 121, 185));
 	color: #fff;
 }
 .button_name_span {
