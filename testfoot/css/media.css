@@ -109,7 +109,8 @@
 	height: 12px;
 	width: 12px;
 	margin: 0;
-	top: 5px;
+	top: 8px;
+	left: 8px;
 }
 .arrow {
 	background-image: url(../images/arrow_right.png);
