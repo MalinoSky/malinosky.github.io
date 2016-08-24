@@ -162,7 +162,23 @@
 .non a {
 	font-size: 16px;
 }
-
+/*------ убрать в продакшене, ибо есть в майне*/
+.social {
+	margin-top: 10px;
+}
+.social a {
+	margin-right: 5px;
+}
+.sign {
+	border-radius: 6px;
+	border: none;
+	background-color: #fff;
+	color: #454c9e;
+	padding: 5px 9px;
+	margin-top: 6px;
+	font-size: 16px;
+}
+/*--*/
 
 }
 
