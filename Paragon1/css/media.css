@@ -19,7 +19,7 @@
 	.block123 {
 		margin-right: 12px;
 	}
-	.ntfs {
+	.prodCard {
 		background-image: url(../images/bg_small.png);
 		height: 440px;
 	}
@@ -114,10 +114,10 @@
 	.switches_descr li.active a {
 		background: background: linear-gradient(to top, #e95045, #ed7476);
 	}
-	.bunner_descr {
+	.bann_descr {
 		width: 70%;
 	}
-	.bunner_buttons {
+	.bann_buttons {
 		display: none;
 	}
 	.buy {
@@ -127,7 +127,7 @@
     	right: 100px;
     	float: none;
 	}
-	.ntfs {
+	.prodCard {
 		height: 460px;
 	}
 	/*Стили для таблицы*/
@@ -276,7 +276,7 @@
 	html, body {
 		overflow-x: hidden;
 	}
-	.ntfs {
+	.prodCard {
 		background-image: url(../images/bg_smart.png);
 	}
 	.switches {
@@ -310,13 +310,13 @@
 	.test {
 		margin-top: 20px;
 	}
-	.bunner_descr ul {
+	.bann_descr ul {
 		display: none;
 	}
-	.bunner_descr h1 {
+	.bann_descr h1 {
 		font-size: 30px;
 	}
-	.bunner_descr h2 {
+	.bann_descr h2 {
     	margin-top: 252px;
     	text-align: center;
 	}
@@ -406,7 +406,7 @@
 		width: 27%;
 		position: static;
 	}
-	.bunner_descr {
+	.bann_descr {
 		width: 100%;
 	}
 	.button_buy {
@@ -844,10 +844,10 @@ padding: 0;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.bunner_descr h1 {
+	.bann_descr h1 {
 		font-size: 27px;
 	}
-	.bunner_descr h2 {
+	.bann_descr h2 {
 		margin-top: 275px;
 		font-size: 12px;
 	}
@@ -866,10 +866,10 @@ padding: 0;
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.bunner_descr h1 {
+	.banner_descr h1 {
 		font-size: 21px;
 	}
-	.bunner_descr h2 {
+	.banner_descr h2 {
 		font-size: 10px;
 	}
 	.href_right a {
