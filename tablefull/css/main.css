@@ -1,0 +1,56 @@
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 15px;
+}
+	ul, ol, li, p, form, fieldset, a, img {
+    	margin: 0;
+    	padding: 0;
+    	border: none;
+	}
+	.tbfeat p, .tbfeat {
+    	font-size: 13px;
+    	color: #878787;
+	}
+	#bodyElement {
+    	text-align: left;
+	}
+	.tbfeat th {
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787;
+    background: transparent;
+}
+	.tbfeat .arrowGr span {
+    font-size: 15px;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+    /*margin-left: 18px;*/
+    
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -4px;
+    }
+    .tbfeat .CategoryTitle {
+    border-bottom: 1px solid #878787;
+    text-align: center;
+	}
+
+	.tbfeat .arrowGr {
+    width: 10px;
+    height: 9px;
+    background: url(' http://www.paragon-software.com/sites/paragonsoftware.com/images/mac-products/arrows.png') -10px 0px no-repeat;
+    cursor: pointer;
+	/*margin: 0 auto;*/
+	margin-left: 45%;
+
+	}
+	
+.tbfeat .CategoryTitle .arrowGr {
+    background-position: 0px 0px;
+}
+.tbfeat .CategoryTitle .down {
+    background-position: 0px -9px;
+}
+.tbfeat .down {
+    background-position: -10px -9px;
+}
