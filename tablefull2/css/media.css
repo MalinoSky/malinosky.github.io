@@ -12,17 +12,37 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.tbfeat .arrowGr {
-		margin-left: 40%;
+	.feat_title_none {
+		display: none;
 	}
-	
+	.tbfeat th {
+		display: none;
+	}
+	.tbfeat .arrowGr {
+		margin-left: 0;
+	}
+	.feat_display_none {
+		display: block;
+		border-right: none;
+	}	
+	.FeatureBody .feat_syle_top {
+	    padding: 20px 0 0 0;
+	    border-right: none; 
+	    border-bottom: none;
+	    width: 100%;
+	}
+	.FeatureBody .feat_syle {
+	    padding: 10px 0 20px 0;
+	}
+	.FeatureBody #Category1 {
+		border-top: 1px solid #878787;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.tbfeat .arrowGr {
-		margin-left: 0%;
-	}
+	
 }
 
 /* Custom, iPhone Retina */
