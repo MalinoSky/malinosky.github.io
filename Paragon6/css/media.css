@@ -1079,7 +1079,7 @@ padding: 0;
 	border: 0;
 	text-align: center;
 	border-radius: 8px;
-	line-height: 20px;
+	/*line-height: 20px;*/
 	background-image: url(../images/bg_button_buy.png);
 	color: #fff;
 	font-size: 15px;
