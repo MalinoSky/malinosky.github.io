@@ -1063,16 +1063,16 @@ padding: 0;
 	top: 10px;
 	position: relative;
 }
-.buy_buy p,
+.buy_buy a,
 .buy_buy a {
 	display: inline;
 }
-.buy_buy p {
+.buy_buy a {
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
 }
-.buy_buy a {
+.buy_buy a.href_def {
 	/*Изменил паддинг 24 на 23*/
 	padding: 10px 12px;
 	/*vertical-align: middle;*/
@@ -1094,8 +1094,8 @@ padding: 9px 20px 14px 10px;
 border-radius: 8px;
 color: #e84e43;
 }*/
-.buy_buy span {
-	padding: 11px 23px;
+.buy_buy a {
+	padding: 10px 23px;
 	text-align: center;
 	background-color: rgb(250, 250, 250);
 	margin: 0px;
