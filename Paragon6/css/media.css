@@ -1067,6 +1067,10 @@ padding: 0;
 .buy_buy button {
 	display: inline;
 }
+.buy_buy p {
+	margin: 0;
+	padding: 0;
+}
 .buy_buy button {
 	/*Изменил паддинг 24 на 23*/
 	padding: 10px 15px;
