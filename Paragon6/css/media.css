@@ -1070,6 +1070,7 @@ padding: 0;
 .buy_buy p {
 	margin: 0;
 	padding: 0;
+	font-size: 15px;
 }
 .buy_buy button {
 	/*Изменил паддинг 24 на 23*/
@@ -1100,7 +1101,6 @@ color: #e84e43;
 	margin: 0px;
 	border-radius: 8px;
 	color: #e84e43;
-	font-size: 15px;
 }
 .buy_buy .buy_65 {
 	margin-right: -20px;
