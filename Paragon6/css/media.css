@@ -1064,7 +1064,7 @@ padding: 0;
 	position: relative;
 }
 .buy_buy p,
-.buy_buy button {
+.buy_buy a {
 	display: inline;
 }
 .buy_buy p {
@@ -1072,7 +1072,7 @@ padding: 0;
 	padding: 0;
 	font-size: 15px;
 }
-.buy_buy button {
+.buy_buy a {
 	/*Изменил паддинг 24 на 23*/
 	padding: 10px 15px;
 	/*vertical-align: middle;*/
