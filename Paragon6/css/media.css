@@ -1102,6 +1102,8 @@ color: #e84e43;
 /*Добавить для меню*/
 .tabs_menu li {
 	padding: 15px 50px 11px 65px;
+	background: -webkit-linear-gradient(bottom, #dbdbdb, #fefefe);
+	background: -o-linear-gradient(bottom, #dbdbdb, #fefefe);
 	background: linear-gradient(to top, #dbdbdb, #fefefe);
 	color: #969696;
 }
