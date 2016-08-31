@@ -1081,6 +1081,7 @@ padding: 0;
 	line-height: 20px;
 	background-image: url(../images/bg_button_buy.png);
 	color: #fff;
+	font-size: 15px;
 }
 /*.buy_buy p {
 	text-align: center;
@@ -1093,12 +1094,13 @@ border-radius: 8px;
 color: #e84e43;
 }*/
 .buy_buy span {
-	padding: 11px 23px 11px 23px;
+	padding: 11px 23px;
 	text-align: center;
 	background-color: rgb(250, 250, 250);
 	margin: 0px;
 	border-radius: 8px;
 	color: #e84e43;
+	font-size: 15px;
 }
 .buy_buy .buy_65 {
 	margin-right: -20px;
