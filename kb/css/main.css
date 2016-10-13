@@ -515,6 +515,7 @@ height: 43px;
   color: #3b52a0;
   margin-top: 3px;
   z-index: 100;
+  font-weight: bold;
 }
 
 
@@ -691,8 +692,8 @@ height: 43px;
 /*Синеватый ховер во всплывающем меню*/
 .sub_blue_menu { 
   position: relative; 
- 
-  list-style-type: disc;
+ /*na none*/
+  list-style-type: none;
 } 
 .sub_blue_menu, 
 .sub_blue_menu li { 
@@ -713,14 +714,15 @@ height: 43px;
 .service .sub_blue_menu li {
   width: 223px;
 }
-.products .sub_blue_menu li {/*Изменил ширину на 190*/
-  width: 190px;
+.products .sub_blue_menu li {/*Изменил ширину на 206*/
+  width: 206px;
 }
 .sub_blue_menu li .ul_span, 
 .sub_blue_menu:hover li:not(:hover) .ul_span {
   position: absolute;
   visibility: hidden;
   border-radius: 6px;
+  font-weight: 300;
 }
 .sub_blue_menu li .training,
 .sub_blue_menu:hover li:not(:hover) .training {
