@@ -716,7 +716,7 @@ height: 43px;
   width: 223px;
 }
 .products .sub_blue_menu li {/*Изменил ширину на 206*/
-  width: 206px;
+  width: 210px;
 }
 .sub_blue_menu li .ul_span, 
 .sub_blue_menu:hover li:not(:hover) .ul_span {

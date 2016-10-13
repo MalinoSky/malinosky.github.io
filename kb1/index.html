@@ -195,30 +195,32 @@
 
     <li class="accordion_item">
         <label class="accordion_trigger grad_blue arrow_clicked" for="toggle-01">Products<span class="arrow"></span></label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-01" id="toggle-01"/>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-01" onclick="uncheckRadio(this);"/>
         <div class="accordion_target">
           
-        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-1">Home Home and office<span class="arrow_blue"></span></label>
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-1">Products for Windows<span class="arrow_blue"></span></label>
         <input type="checkbox" class="accordion_toggle" name="accordion-01-1" id="toggle-01-1"/>
-        <div class="accordion_target accordion_target_bottom">
+        <div class="accordion_target accordion_target_bottom grad_lighter_blue">
 
-            <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-1">Products for Windows<span class="arrow_blue "></span></label>
-<input type="checkbox" class="accordion_toggle" name="accordion-01-1-1" id="toggle-01-1-1"/>
-        <div class="accordion_target">
+         <!--    <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-1">Products for Windows<span class="arrow_blue "></span></label>
+<input type="checkbox" class="accordion_toggle" name="accordion-01-1-1" id="toggle-01-1-1"/> -->
+        
         
         <ul>
-        	<li><a href="#">Hard disk Manager</a></li>
-        	<li><a href="#">Hard Disk Manager 15 Professional</a></li>
-        	<li><a href="#">Drive Copy 15 Professional</a></li>
-        	<li><a href="#">Partition Manager 15</a></li>
-        	<li><a href="#">Backup & Recovery 15 Home</a></li>
+        	<li><a href="#"> HDM 16</a></li>
+        	<li><a href="#">Backup & Recovery 16 + all versions</a></li>
+        	<li><a href="#">Hard Disk Manager 15 + all version</a></li>
+        	<li><a href="#">HFS+ for Windows 11</a></li>
+        	<li><a href="#"> ExtFS for Windows</a></li>
+        	<li><a href="#">Paragon Deployment Manager 11</a></li>
+        	<li><a href="#">Paragon Protect & Restore</a></li>
         	<li><a href="#">Disk Wiper 15 Professional</a></li>
-        	<li><a href="#">HFS+ for Windows 10</a></li>
-        	<li><a href="#">ExtFS for Windows</a></li>
+        	<li><a href="#">Drive Copy 15 Professional</a></li>
+        	<li><a href="#">Migrate OS to SSD 4.0</a></li>
         </ul>
-        </div>
+        
 
-		<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-2">Products for Mac<span class="arrow_blue "></span></label>
+		<!-- <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-2">Products for Mac<span class="arrow_blue "></span></label>
 			<input type="checkbox" class="accordion_toggle" name="accordion-01-1-2" id="toggle-01-1-2"/>
 				<div class="accordion_target">
 					<ul>
@@ -235,7 +237,7 @@
 			<input type="checkbox" class="accordion_toggle" name="accordion-01-1-3" id="toggle-01-1-3"/>
 				<div class="accordion_target">
 				<!-- Добаить класс accord_for_linux -->
-					<ul class="accord_for_linux">
+					<!-- <ul class="accord_for_linux">
 					<li><a href="#">NTFS&HFS+ for Linux 9.4 Professional</a></li>
 					</ul>
 				</div>
@@ -250,37 +252,48 @@
 					<li><a href="#">ExtFS for Mac 10</a></li>
 					<li><a href="#">ExtFS for Windows</a></li>
 					</ul>
-				</div>
-
+				</div> -->
+ 
 
 
 
         </div>
 
-		<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-2">Compare all products</label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-01-2" id="toggle-01-2"/>
-        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-3">Mac Toolbox</label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-01-3" id="toggle-01-3"/>
-        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-4">Student Discount</label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-01-4" id="toggle-01-4"/>
+		<!-- <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-2">Compare all products</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-2" id="toggle-01-2"/> -->
+        
 
-        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-5">Small Business<span class="arrow_blue "></span></label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-01-5" id="toggle-01-5"/>
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-3">Products for Mac<span class="arrow_blue "></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-3" id="toggle-01-3"/>
         <div class="accordion_target grad_lighter_blue">
 					<ul>
-						<li><a href="#">Hard Disk Manager 15 Business</a></li>
+						<li><a href="#">NTFS for Mac 14 + 15</a></li>
+						<li><a href="#">Camptune X</a></li>
+						<li><a href="#">Hard Disk Manager for Mac</a></li>
+						<li><a href="#">ExtFS for Mac 10</a></li>
 					</ul>
+
 		</div>
-		<label class="accordion_trigger grad_light_blue  border_bottom arrow_clicked" for="toggle-01-6">Medium & Large Business<span class="arrow_blue "></span></label>
-			<input type="checkbox" class="accordion_toggle" name="accordion-01-6" id="toggle-01-6"/>
+		<label class="accordion_trigger grad_light_blue  border_bottom arrow_clicked" for="toggle-01-4">Older Products<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-4" id="toggle-01-4"/>
 				<div class="accordion_target grad_lighter_blue">
 					<ul>
-					<li><a href="#">Paragon Protect & Restore</a></li>
-					<li><a href="#">Hard Disk Manager 15 Premium</a></li>
-					<li><a href="#">Paragon Deployment Manager 11</a></li>
+					<li><a href="#">Partition Manager 15</a></li>
+					<li><a href="#">Hard Disk Manager 14</a></li>
+					<li><a href="#">Backup & Recovery 14 Free Edition (free)</a></li>
+					<li><a href="#">Resсue Kit 14 Free Edition (free)</a></li>
+					<li><a href="#">Virtualization Manager 14 Professiona</a></li>
+					<li><a href="#">GPT Loader</a></li>
+					<li><a href="#">Paragon Alignment Tool 4.0 Professional </a></li>
 					</ul>
 				</div>
-		<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-7">Where to buy<span class="arrow_blue "></span></label>
+
+		<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-5">How to</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-5" id="toggle-01-5"/>
+        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-6">Release History </label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-6" id="toggle-01-6"/>
+
+		<!-- <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-7">Where to buy<span class="arrow_blue "></span></label>
 			<input type="checkbox" class="accordion_toggle" name="accordion-01-7" id="toggle-01-7"/>
 				<div class="accordion_target grad_lighter_blue">
 					<ul>
@@ -312,7 +325,7 @@
 					<li><a href="#">Exchange Granular Recovery</a></li>
 					<li><a href="#">Snapshot for Mac OEM</a></li>
 					</ul>
-				</div>
+				</div> -->
 
 
 
@@ -321,49 +334,28 @@
         </div>
 
 
-		<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-02">Resources<span class="arrow"></span></label>
-        <input type="checkbox" class="accordion_toggle" name="accordion-02" id="toggle-02"/>
+		<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-02">Non technical questions<span class="arrow"></span></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" onclick="uncheckRadio(this);"/>
         <div class="accordion_target">
-			<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-1">Home & Home Office<span class="arrow_blue"></span></label>
+			<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-02-1">MyParagon</label>
         	<input type="checkbox" class="accordion_toggle" name="accordion-02-1" id="toggle-02-1"/>
-        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
-        		<ul>
-        			<li><a href="#">Downloads</a></li>
-        			<li><a href="#">Manuals</a></li>
-        			<li><a href="#">License Overview</a></li>
-        		</ul>
-        	</div>
-        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-2">Small Business<span class="arrow_blue"></span></label>
+        	
+        	<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-02-2">Activation</label>
         	<input type="checkbox" class="accordion_toggle" name="accordion-02-2" id="toggle-02-2"/>
-        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
-        		<ul>
-        			<li><a href="#">Downloads</a></li>
-        			<li><a href="#">Manuals</a></li>
-        			<li><a href="#">License Overview</a></li>
-        			<li><a href="#">Case Studies</a></li>
-        		</ul>
-        	</div>
-        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-3">Medium & Large Business<span class="arrow_blue"></span></label>
+        	
+        	<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-02-3">Misc</label>
         	<input type="checkbox" class="accordion_toggle" name="accordion-02-3" id="toggle-02-3"/>
-        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
-        		<ul>
-        			<li><a href="#">Downloads</a></li>
-        			<li><a href="#">Manuals</a></li>
-        			<li><a href="#">License Overview</a></li>
-        			<li><a href="#">White Papers</a></li>
-        			<li><a href="#">Case Studies</a></li>
-        		</ul>
-        	</div>
+        	
 
 			
 
         </div>
 		
 
-			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-03">Partners<span class="arrow"></span></label>
-			<input type="checkbox" class="accordion_toggle" name="accordion-03" id="toggle-03"/>
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-03">Manuals<span class="arrow"></span></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-03" onclick="uncheckRadio(this);"/>
 			<div class="accordion_target">
-				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-1">For our partners<span class="arrow_blue"></span></label>
+				<!-- <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-1">For our partners<span class="arrow_blue"></span></label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-03-1" id="toggle-03-1"/>
 				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
 					<label class="accordion_trigger grad_lighter_blue arrow_clicked" for="toggle-03-3-1">Channel Partners<span class="arrow_blue"></span></label>
@@ -386,25 +378,25 @@
 					<label class="accordion_trigger grad_lighter_blue " for="toggle-03-3-3">Tehnology Partner</label>
 					<input type="checkbox" class="accordion_toggle" name="accordion-03-3-3" id="toggle-03-3-3"/>
 				
-					</div>
-				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-2">Where to buy<span class="arrow_blue"></span></label>
+					</div> -->
+				<!-- <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-2">Where to buy<span class="arrow_blue"></span></label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-03-2" id="toggle-03-2"/>
 				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
 					<ul>
 						<li><a href="#">Find Resellers</a></li>
 						<li><a href="#">Find Distribytors</a></li>
 					</ul>
-				</div>
-				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-3">Contant us</label>
+				</div> -->
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-3">Home & Home Office Manuals</label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-03-3" id="toggle-03-3"/>
-				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Partner login</label>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Small Business Manuals</label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-03-4" id="toggle-03-4"/>
-				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-5">Become a Paragon Partner</label>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-5">Medium & Large Business Manuals</label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-03-5" id="toggle-03-5"/>
 				</div>
-			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-04">Service & Support<span class="arrow"></span></label>
-			<input type="checkbox" class="accordion_toggle" name="accordion-04" id="toggle-04"/>
-			<div class="accordion_target">
+			<label class="accordion_trigger grad_blue " for="toggle-04">Support Forum<span class="arrow"></span></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-04" onclick="uncheckRadio(this);"/>
+			<!-- <div class="accordion_target">
 				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-4">Support Services<span class="arrow_blue"></span></label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-04-4" id="toggle-04-4"/>
 				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
@@ -450,10 +442,10 @@
 						<li><a href="#">Beta Testing Program</a></li>
 					</ul>
 				</div>
-			</div>
-			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-05">Company<span class="arrow"></span></label>
-			<input type="checkbox" class="accordion_toggle" name="accordion-04" id="toggle-05"/>
-			<div class="accordion_target">
+			</div> -->
+			<label class="accordion_trigger grad_blue " for="toggle-05">Contacts<span class="arrow"></span></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-05" onclick="uncheckRadio(this);"/>
+			<!-- <div class="accordion_target">
 				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-05-5">Paragon Software Group<span class="arrow_blue"></span></label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-05-5" id="toggle-05-5"/>
 				<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
@@ -476,7 +468,7 @@
 				</div>
 				<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-05-7">Contacts</label>
 				<input type="checkbox" class="accordion_toggle" name="accordion-05-7" id="toggle-05-7"/>
-		</div>
+		</div> -->
     </li>
     </ul>
 </div>
@@ -1152,7 +1144,7 @@
 	</script>
 	<script>
         $(document).ready(function() {
-            $('.main-content').sidr({
+            $('.basic').sidr({
                 name: 'sidr-right',
                 side: 'right'
             });
