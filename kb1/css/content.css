@@ -35,6 +35,10 @@ body {
 	text-align: center;
 	margin-top: 40px;
 }
+.kb_img a:hover img {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 89px;
+}
 .last_kb_icons {
 	margin-bottom: 100px;
 }
