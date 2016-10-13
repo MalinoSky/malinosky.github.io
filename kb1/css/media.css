@@ -224,6 +224,11 @@
     width: 380px;
     background: #868687;
 	}
+
+
+	.kb_img img {
+	width: 140px;
+	}
 }
 
 /* Small Devices, Tablets */
