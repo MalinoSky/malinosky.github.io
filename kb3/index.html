@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/content.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+<header class="hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="logo">
+				<a href="#"><img src="images/Logo.svg" onerror="this.onerror=null; this.src='logo.png'" alt=""></a>
+				</div>
+				<div class="lngTitle hidden-md hidden-lg">
+				<form id="head-search">
+					<input name="search" placeholder="Suchen" size="20" type="text" >
+					<input name="loop" type="submit" value="">
+				</form>
+				<div class="lngu">
+				<div class="language">English</div>
+					<ul class="sub_lng">
+						<li class="lng_center">
+							<ul>
+								<li><a href="">Deutsch</a></li>
+								<li><a href="">Русский</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-5 hidden-sm">
+				<div class="account">
+					Kontaktieren Sie uns: 0800-3232202 <br>
+                	<a href="#">Anmelden in MyAccount</a>
+				</div>
+			</div>
+			<div class="col-md-5 hidden-sm">
+				<div class="lngTitle">
+				<form id="head-search-xs">
+					<input name="search" placeholder="Suchen" size="20" type="text" >
+					<input name="loop" type="submit" value="">
+				</form>
+				<div class="lngu">
+				<div class="language">English</div>
+				
+				<ul class="sub_lng">
+						<li class="lng_center">
+						<ul>
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Русский</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="container hidden-md hidden-lg hidden-sm">
+<div class="row">
+<div id="sidr-right">
+	<ul class="accordion">
+
+    <li class="accordion_item">
+
+		<label class="accordion_trigger grad_blue " for="toggle-02">Main site<!--<span class="arrow"></span>--></label>
+		<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" onclick='top.location="http://www.ya.ru"'/>
+
+        <label class="accordion_trigger grad_blue arrow_clicked" for="toggle-01">Products<span class="arrow"></span></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-01" onclick="uncheckRadio(this);"/>
+        <div class="accordion_target">
+          
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-1">Products for Windows<span class="arrow_blue"></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-1" id="toggle-01-1"/>
+        <div class="accordion_target accordion_target_bottom grad_lighter_blue">
+
+         <!--    <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-1">Products for Windows<span class="arrow_blue "></span></label>
+<input type="checkbox" class="accordion_toggle" name="accordion-01-1-1" id="toggle-01-1-1"/> -->
+        
+        
+        <ul>
+        	<li><a href="#"> HDM 16</a></li>
+        	<li><a href="#">Backup & Recovery 16 + all versions</a></li>
+        	<li><a href="#">Hard Disk Manager 15 + all version</a></li>
+        	<li><a href="#">HFS+ for Windows 11</a></li>
+        	<li><a href="#"> ExtFS for Windows</a></li>
+        	<li><a href="#">Paragon Deployment Manager 11</a></li>
+        	<li><a href="#">Paragon Protect & Restore</a></li>
+        	<li><a href="#">Disk Wiper 15 Professional</a></li>
+        	<li><a href="#">Drive Copy 15 Professional</a></li>
+        	<li><a href="#">Migrate OS to SSD 4.0</a></li>
+        </ul>
+        
+
+		
+ 
+
+
+
+        </div>
+
+
+        
+
+        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-3">Products for Mac<span class="arrow_blue "></span></label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-3" id="toggle-01-3"/>
+        <div class="accordion_target grad_lighter_blue">
+					<ul>
+						<li><a href="#">NTFS for Mac 14 + 15</a></li>
+						<li><a href="#">Camptune X</a></li>
+						<li><a href="#">Hard Disk Manager for Mac</a></li>
+						<li><a href="#">ExtFS for Mac 10</a></li>
+					</ul>
+
+		</div>
+		<label class="accordion_trigger grad_light_blue  border_bottom arrow_clicked" for="toggle-01-4">Older Products<span class="arrow_blue "></span></label>
+			<input type="checkbox" class="accordion_toggle" name="accordion-01-4" id="toggle-01-4"/>
+				<div class="accordion_target grad_lighter_blue">
+					<ul>
+					<li><a href="#">Partition Manager 15</a></li>
+					<li><a href="#">Hard Disk Manager 14</a></li>
+					<li><a href="#">Backup & Recovery 14 Free Edition (free)</a></li>
+					<li><a href="#">Resсue Kit 14 Free Edition (free)</a></li>
+					<li><a href="#">Virtualization Manager 14 Professiona</a></li>
+					<li><a href="#">GPT Loader</a></li>
+					<li><a href="#">Paragon Alignment Tool 4.0 Professional </a></li>
+					</ul>
+				</div>
+
+		<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-5">How to</label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-5" id="toggle-01-5"/>
+        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-6">Release History </label>
+        <input type="checkbox" class="accordion_toggle" name="accordion-01-6" id="toggle-01-6"/>
+
+	
+        </div>
+
+		<!-- 20.10.2016 Удалить -->
+		<!-- <label class="accordion_trigger grad_blue arrow_clicked" for="toggle-02">Non technical questions<span class="arrow"></span></label>
+        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" onclick="uncheckRadio(this);"/>
+        <div class="accordion_target">
+			<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-02-1">MyParagon</label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-1" id="toggle-02-1"/>
+        	
+        	<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-02-2">Activation</label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-2" id="toggle-02-2"/>
+        	
+        	<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-02-3">Misc</label>
+        	<input type="checkbox" class="accordion_toggle" name="accordion-02-3" id="toggle-02-3"/>
+        	
+
+			
+
+        </div> -->
+		
+
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-03">Manuals<span class="arrow"></span></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-03" onclick="uncheckRadio(this);"/>
+			<div class="accordion_target">
+				
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-3">Home & Home Office Manuals</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-3" id="toggle-03-3"/>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Small Business Manuals</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-4" id="toggle-03-4"/>
+				<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-5">Medium & Large Business Manuals</label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-03-5" id="toggle-03-5"/>
+				</div>
+			<label class="accordion_trigger grad_blue " for="toggle-04">Support Forum<!--<span class="arrow"></span>--></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-04" onclick='top.location="http://www.ya.ru"'/>
+			
+			<label class="accordion_trigger grad_blue " for="toggle-05">Contacts<!--<span class="arrow"></span>--></label>
+			<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-05" onclick='top.location="http://www.ya.ru"'/>
+		    </li>
+    </ul>
+</div>
+<div class="main-content hidden-md hidden-lg"><!--тут был ld исправить на lg-->
+	<a class="basic" id="right-menu"  href="#sidr">
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+	</a>
+	<div class="row">
+	<div class="col-xs-6">
+		<a href="#"><img src="images/Logo_small.svg" onerror="this.onerror=null; this.src='logo.png'" alt=""></a>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<section class="top_mnu">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- <nav class="main_mnu clearfix">
+					<ul class="ul_menu">
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Main site</a></li>
+						<li class="active separate  menu menu-hover"><a href="#" class="separate_link">Products</a>
+								<ul class="submenu products">
+							
+								<li class="f_left line p_top">
+									<ul class="sub_blue_menu">
+										<li tabindex="0">Products for Windows ›
+													<ul class="ul_span for_wind">
+														<li> HDM 16</li>
+														<li>Backup & Recovery 16 + all versions</li>
+														<li>Hard Disk Manager 15 + all version</li>
+														<li>HFS+ for Windows 11</li>
+														<li> ExtFS for Windows</li>
+														<li>Paragon Deployment Manager 11</li>
+														<li>Paragon Protect & Restore</li>
+														<li>Disk Wiper 15 Professional</li>
+														<li>Drive Copy 15 Professional</li>
+														<li>Migrate OS to SSD 4.0</li>
+													</ul>
+										</li>
+										<li tabindex="0">Products for Mac ›
+											<ul class="ul_span for_mac">
+														<li>NTFS for Mac 14 + 15</li>
+														<li>Camptune X</li>
+														<li>Hard Disk Manager for Mac</li>
+														<li>ExtFS for Mac 10</li>
+											</ul>
+										</li>
+
+
+										<li>Older Products ›
+											<ul class="ul_span for_lin">
+												<li> Partition Manager 15</li>
+												<li>Hard Disk Manager 14</li>
+												<li>Backup & Recovery 14 Free Edition (free)</li>
+												<li>Resсue Kit 14 Free Edition (free)</li>
+												<li>Virtualization Manager 14 Professiona</li>
+												<li>GPT Loader</li>
+												<li>Paragon Alignment Tool 4.0 Professional </li>
+										</ul>
+										</li>
+									
+										
+										
+										
+									</ul>
+										
+								</li>
+								
+								<li class="f_left">
+									
+							
+									<ul class="sub_blue_menu">
+										<li>How to</li>
+										<li>Release History </li>
+									</ul>
+								</li>
+							</ul>
+						</li>						
+						<li class="separate menu menu-hover "><a href="#" class="separate_link">Manuals</a>
+								<ul class="submenu manu">
+									<li class="f_left ">
+										<ul class="sub_blue_menu">
+											<li >Home & Home Office Manuals</li>
+											<li >Small Business Manuals</li>
+											<li >Medium & Large Business Manuals</li>
+										</ul>
+			                    	</li>
+			                       
+			    				</ul>
+						</li>
+
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Support Forum</a></li>
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Contacts</a></li>
+					</ul>
+				</nav> -->
+
+
+				 <ul id="navmenu">
+					<li class="point menu menu-hover">						
+						<a href="#">Main site</a>
+					</li>
+
+					<li class="point longpoint menu menu-hover ">
+						<div class="linee"></div>
+						<a href="#">Products</a>
+						<ul class="submenu products">
+							
+								<li class="f_left line p_top">
+									<ul class="sub_blue_menu">
+										<li tabindex="0">Products for Windows ›
+													<ul class="ul_span for_wind">
+														<li> HDM 16</li>
+														<li>Backup & Recovery 16 + all versions</li>
+														<li>Hard Disk Manager 15 + all version</li>
+														<li>HFS+ for Windows 11</li>
+														<li> ExtFS for Windows</li>
+														<li>Paragon Deployment Manager 11</li>
+														<li>Paragon Protect & Restore</li>
+														<li>Disk Wiper 15 Professional</li>
+														<li>Drive Copy 15 Professional</li>
+														<li>Migrate OS to SSD 4.0</li>
+													</ul>
+										</li>
+										<li tabindex="0">Products for Mac ›
+											<ul class="ul_span for_mac">
+														<li>NTFS for Mac 14 + 15</li>
+														<li>Camptune X</li>
+														<li>Hard Disk Manager for Mac</li>
+														<li>ExtFS for Mac 10</li>
+											</ul>
+										</li>
+
+
+										<li>Older Products ›
+											<ul class="ul_span for_lin">
+												<li> Partition Manager 15</li>
+												<li>Hard Disk Manager 14</li>
+												<li>Backup & Recovery 14 Free Edition (free)</li>
+												<li>Resсue Kit 14 Free Edition (free)</li>
+												<li>Virtualization Manager 14 Professiona</li>
+												<li>GPT Loader</li>
+												<li>Paragon Alignment Tool 4.0 Professional </li>
+										</ul>
+										</li>
+									
+										
+										
+										
+									</ul>
+										
+								</li>
+								
+								<li class="f_left">
+									
+							
+									<ul class="sub_blue_menu">
+										<li>How to</li>
+										<li>Release History </li>
+									</ul>
+								</li>
+							</ul>
+					</li>
+					<li class="point menu menu-hover">
+						<div class="linee"></div>
+						<a href="#">Manuals</a>
+						<ul class="submenu manu">
+									<li class="f_left ">
+										<ul class="sub_blue_menu">
+											<li >Home & Home Office Manuals</li>
+											<li >Small Business Manuals</li>
+											<li >Medium & Large Business Manuals</li>
+										</ul>
+			                    	</li>
+			                       
+			    				</ul>
+
+					</li>
+					<li class="point pointmiddle">
+						<div class="linee"></div>
+						<a href="#">Support forum</a>
+					</li>
+					<li class="point">
+						<div class="linee"></div>
+						<a href="#">Contacts</a>
+					</li>
+
+				</ul>
+		</div>
+	</div>
+</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="title">
+			<h2>How can we help today?</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="support_inf">
+					<p>Пожалуйста выберите продукт из соответствующей категории для отображения тематических статей или используйте строку поиска.</p>
+					<p>Если вы не смогли найти ответ на ваш вопрос в нашей базе знаний или в случае специфичного вопроса вы всегда можете связаться со службой поддержки Paragon через ваш Личный Кабинет.</p>
+					<p>Пожалуйста, используйте инструкции в данной статье, чтобы упростить исследование вашей проблемы и ускорить поиск решения группой поддержки: Как написать запрос в техподдержку</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="kb_icons">
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/HDM16.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 16</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Br.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Backup & Recovery 16 + all versions</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/HDM16.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 15 + all version</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/HFS.png" alt=""></a>
+					</div>
+					<div class="href_icon">				
+						<a href="#">HFS+ for Windows 11</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="kb_icons">
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/EXTfs.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 16</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Br.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Backup & Recovery 16 + all versions</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Protect.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 15 + all version</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/DW.png" alt=""></a>
+					</div>
+					<div class="href_icon">				
+						<a href="#">HFS+ for Windows 11</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="kb_icons">
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/DC.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 16</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Br.png" alt=""></a>
+					</div>
+					<div class="href_icon">				
+						<a href="#">HFS+ for Windows 11</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/NTFS.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Backup & Recovery 16 + all versions</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Camptune.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 15 + all version</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<div class="row last_kb_icons">
+			<div class="kb_icons">
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/HDMMac.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 16</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/EXTfsMac.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Backup & Recovery 16 + all versions</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="kb_img">
+						<a href="#"><img src="images/kb/Br.png" alt=""></a>
+					</div>
+					<div class="href_icon">
+						<a href="#">Hard Disk Manager 15 + all version</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</div>
+</section>
+
+<section class="footer">
+	<div class="container">
+		<div class="row">
+		<div class="blocks">
+			<div class="block_1">
+				<div class="block1">
+				<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>For Windows</strong></a><br>
+						<a href="#">Hard Disk Manager</a><br>
+						<a href="#">Drive Backup</a><br>
+						<a href="#">Partition Manager</a><br>
+						<a href="#">Drive Copy</a><br>
+						<a href="#">Protect & Restrore</a><br>
+					</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-1" class="hide"/>
+
+							<!-- Везде пзаменен класс у лейбла с arrow_clicked на footer_click   -->
+							<label for="hd-1" class="footer_click">For windows<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">Hard Disk Manager</a><br>
+								<a href="#">Drive Backup</a><br>
+								<a href="#">Partition Manager</a><br>
+								<a href="#">Drive Copy</a><br>
+								<a href="#">Protect & Restrore</a><br>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="block12">
+				<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>For Mac</strong></a><br>
+						<a href="#">NTFS for Mac </a><br>
+						<a href="#">Camptune X</a><br>
+						<a href="#">Boot Camp Backup</a><br>
+						<a href="#">Rescue Kit for Mac</a><br>
+						<a href="#">Protect & Restrore</a><br>
+					</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-2" class="hide"/>
+							<label for="hd-2" class="footer_click">For Mac<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">NTFS for Mac </a><br>
+								<a href="#">Camptune X</a><br>
+								<a href="#">Boot Camp Backup</a><br>
+								<a href="#">Rescue Kit for Mac</a><br>
+								<a href="#">Protect & Restrore</a><br>
+							</div>
+						</div>
+					</div>
+					<div class="block112">
+						<div class="footer_line"></div>
+						<div class="hidden-xs">
+								<a href="#"><strong>Partners</strong></a><br>
+								<a href="#">Paragon Partner Program </a><br>
+								<a href="#">Paragon Affiliate Program </a>
+						</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-3" class="hide"/>
+								<label for="hd-3" class="footer_click">Partners<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">Paragon Partner Program</a><br>
+									<a href="#">Paragon Affiliate Program</a><br>
+								</div>
+							</div>
+						</div>	
+					</div>
+			</div>
+			<div class="block13">
+				<div class="footer_line"></div>
+				<div class="hidden-xs">
+					<a href="#"><strong>Tehnologies</strong></a><br>
+					<a href="#">Migtate OS to SSD</a><br>
+					<a href="#">GPT Loader</a><br>
+					<a href="#">Aligment Tool</a><br>
+					<a href="#">NTFS-HFS Converter</a><br>
+				</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-4" class="hide"/>
+							<label for="hd-4" class="footer_click">Tehnologies<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">Migtate OS to SSD</a><br>
+								<a href="#">GPT Loader</a><br>
+								<a href="#">Aligment Tool</a><br>
+								<a href="#">NTFS-HFS Converter</a><br>
+							</div>
+						</div>
+					</div>
+			</div>
+			</div>
+			<div class="block_2">
+				<div class="block16">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Services</strong></a><br>
+						<a href="#">Support</a><br>
+						<a href="#">Beta programs</a><br>
+						<a href="#">Knowledge base</a><br>
+						<a href="#">Support Forum</a><br>
+						<a href="#">Tehnology Advisory Council</a><br>
+						<a href="#">TeamViewer</a>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-5" class="hide"/>
+								<label for="hd-5" class="footer_click">Services<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">Support</a><br>
+									<a href="#">Beta programs</a><br>
+									<a href="#">Knowledge base</a><br>
+									<a href="#">Support Forum</a><br>
+									<a href="#">Tehnology Advisory Council</a><br>
+									<a href="#">TeamViewer</a>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="block123">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>About</strong></a><br>
+						<a href="#">About us </a><br>
+						<a href="#">Lastet news</a><br>
+						<a href="#">Contact us</a><br>
+						<a href="#">Press room</a><br>
+						<a href="#">Blog</a><br>
+						<a href="#">Sitemap</a><br>
+					</div>
+
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-6" class="hide"/>
+								<label for="hd-6" class="footer_click">About<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">About us </a><br>
+									<a href="#">Lastet news</a><br>
+									<a href="#">Contact us</a><br>
+									<a href="#">Press room</a><br>
+									<a href="#">Blog</a><br>
+									<a href="#">Sitemap</a><br>
+								</div>
+							</div>
+						</div>
+						<div class="block112">
+							<div class="footer_line"></div>
+							<div class="hidden-xs">
+								<a href="#"><strong>Legal</strong></a><br>
+								<a href="#">Imprint </a><br>
+								<a href="#">Company Details </a><br>
+								<a href="#">Terms</a><br>
+								<a href="#">Privacy Statemant</a>
+							</div>
+								<div class="hidden-sm hidden-md hidden-lg">
+									<div class="hide_blocks">
+										<input type="checkbox" id="hd-7" class="hide"/>
+										<label for="hd-7" class="footer_click">Legal<span class="arrow_footer"></span></label>
+										<div class="non">
+											<a href="#">Imprint </a><br>
+											<a href="#">Company Details </a><br>
+											<a href="#">Terms</a><br>
+											<a href="#">Privacy Statemant</a>
+										</div>
+									</div>
+								</div>
+						</div>
+				</div>
+			</div>
+			<div class="block_3">
+				<div class="block14">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Join Exclusives</strong></a><br>
+						<p>Connect with us for giveaways, <br> exclusive promotions and last news!</p>
+						<div class="social">
+							<a href="http://www.facebook.com/pages/Paragon-Software-Group/116815481437?ref=ts&v=wall" target="_blank" rel="nofollow"><img src="images/facebook.svg" onerror="this.onerror=null; this.src='images/facebook.png'" alt=""></a>
+							<a href="http://twitter.com/paragonsoftware" target="_blank" rel="nofollow"><img src="images/twitter.svg" onerror="this.onerror=null; this.src='images/twitter.png'" alt=""></a>
+							<!-- Убрал свг и осавил только пнг -->
+							<a href="http://blog.paragon-software.de/" target="_blank" rel="nofollow"><img src="images/blog_32px.png" onerror="this.onerror=null; this.src='images/blog.jpg'" alt=""></a>
+							<a href="http://support.paragon-software.com/" target="_blank" rel="nofollow"><img src="images/paragon.svg" onerror="this.onerror=null; this.src='images/paragon.png'" alt=""></a>
+							<a href="http://www.paragon-software.com/rss.xml" target="_blank" rel="nofollow"><img src="images/rss.svg" onerror="this.onerror=null; this.src='images/rss.png'" alt=""></a>
+						</div>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-8" class="hide" checked/>
+								<label for="hd-8" class="footer_click">Join Exclusives<span class="arrow_footer actived"></span></label>
+								<div class="non">
+									 <div class="non">
+										<p>Connect with us for giveaways, <br> exclusive promotions and last news!</p>
+										<div class="social">
+											<a href="http://www.facebook.com/pages/Paragon-Software-Group/116815481437?ref=ts&v=wall" target="_blank" rel="nofollow"><img src="images/facebook.svg" onerror="this.onerror=null; this.src='images/facebook.png'" alt=""></a>
+											<a href="http://twitter.com/paragonsoftware" target="_blank" rel="nofollow"><img src="images/twitter.svg" onerror="this.onerror=null; this.src='images/twitter.png'" alt=""></a>
+											<!-- Убрал свг и осавил только пнг -->
+											<a href="http://blog.paragon-software.de/" target="_blank" rel="nofollow"><img src="images/blog_32px.png" alt=""></a>
+											<a href="http://support.paragon-software.com/" target="_blank" rel="nofollow"><img src="images/paragon.svg" onerror="this.onerror=null; this.src='images/paragon.png'" alt=""></a>
+											<a href="http://www.paragon-software.com/rss.xml" target="_blank" rel="nofollow"><img src="images/rss.svg" onerror="this.onerror=null; this.src='images/rss.png'" alt=""></a>
+										</div>
+								    </div>
+								</div>
+							</div>
+						</div>
+				
+				<div class="block112">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Subsribe to our newslatter</strong></a>
+						<p>Enter your e-mail and receive updates <br> about special offers and exclusive <br> content! </p>
+						<button class="sign">
+							<span>Newsletter Sign-Up ›</span>
+						</button>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-9" class="hide" checked/>
+								<label for="hd-9" class="footer_click">Subsribe to our newslatter<span class="arrow_footer actived"></span></label>
+								<div class="non">
+									<p>Enter your e-mail and receive updates <br> about special offers and exclusive <br> content! </p>
+									<button class="sign">
+										<span>Newsletter Sign-Up ›</span>
+									</button>
+								</div>
+							</div>
+							 <div class="arrow_up"><a href="#"><img src="images/arrow_up.svg" onerror="this.onerror=null; this.src='images/arrow_up.png'" alt=""></a></div>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/sidr/jquery.sidr.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="libs/jquery.touchSwipe/jquery.touchSwipe.min.js"></script>
+	<script>
+		$('body').swipe( {
+		//Single swipe handler for left swipes
+		swipeRight: function () {
+		    $.sidr('close', 'sidr-right');
+		},
+		//Default is 75px, set to 0 for demo so any distance triggers swipe
+		threshold: 45
+		});
+	</script>
+	<script>
+        $(document).ready(function() {
+            $('.basic').sidr({
+                name: 'sidr-right',
+                side: 'right'
+            });
+        });
+    </script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

@@ -1,0 +1,672 @@
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	height: 100%;
+	overflow-x: hidden;
+	    background: #fff 90% 0, #fafafa  10% 0; 
+}
+.logo {
+	margin: 22px 0 15px 0;
+}
+.account {
+	margin:  31px 0 13px 0;
+	padding-left: 19px;
+	font-size: 15px;
+	margin-left: 37px;
+}
+.account a {
+	color: #6272ae;
+}
+.lngTitle {
+	text-align: center;
+	margin: 39px 0 31px 56px;
+	height: 43px;
+}
+input[name="search"] {
+	border: 1px solid #3b52a0;
+	border-radius: 20px; 
+	padding: 5px 2px 5px 30px; 
+	background-position: left;
+	font-size: 14px;
+	text-align: center;
+	color: #8c97d0;
+}
+#head-search,
+#head-search-xs {
+	position: relative;
+	max-width: 180px;
+	display: inline-block;
+}
+#head-search input[name="search"],
+#head-search-xs input[name="search"] {
+	height: 30px;
+	width: 100%;
+	padding: 0 24px 0 45px;
+	font-size: 14px;
+	color: #78828c;
+	border: 1px solid #3b52a0;
+	border-radius: 30px;
+}
+#head-search input[name="loop"],
+#head-search-xs input[name="loop"] {
+	position: absolute;
+	top: 0;
+	left: -7px;
+	width: 45px;
+	height: 100%;
+	border: 0;
+	background: url(../images/search.png) no-repeat center;
+}
+.lngu {
+	position: relative;
+	max-width: 180px;
+	display: inline-block;
+}
+
+
+.footer {
+	background-image: url(../images/bg_footer.png);
+	width: 100%;
+	height: 440px;
+}
+.block1,
+.block12,
+.block13,
+.block14,
+.block123,
+.block16  {
+	float: left;
+}
+.block1 {
+	width: 143px;
+}
+.block16 {
+	width: 143px;
+}
+.block12 {
+	width: 150px;
+}
+.block123 {
+	width: 130px;
+}
+
+.block1 a,
+.block12 a,
+.block13 a,
+.block1 p,
+.block12 p,
+.block13 p,
+.block14 p,
+.block14 a,
+.block123 a,
+.block123 p,
+.block16 a,
+.block16 p {
+	color: #c4d6f0;
+	margin: 0;
+	padding: 0;
+}
+.block14 {
+	width: 212px;
+}
+.block1,
+.block12,
+.block13,
+.block16,
+.block123 {
+	margin-right: 42px;
+}
+
+.blocks {
+	margin-top: 87px;
+	font-size: 13px;
+}
+.block112 {
+	margin-top: 10px;
+}
+.f_left {
+	float: left;
+}
+.hover-menu p {
+    margin: 0px;
+    padding-left: 12px;
+}
+
+.top_mnu {
+  /*Изменил на 48 11.10*/
+    height: 48px;
+    width: 100%;
+    background-image: url(../images/grad.png);
+}
+.main_mnu {
+    margin-bottom: 0px;
+    text-align: center;
+}
+/*10.11 изменил на navmenu*/
+#navmenu  {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+/*#navmenu ul li.separate { 
+    display: inline-block;
+}*/
+/*Удалить*/
+/*.main_mnu li.separate a.separate_link  {
+    background-image: url(../images/separate.png);
+    display: block;
+    background-repeat: repeat-y;
+    margin-right: -4px;
+}
+.main_mnu li.separate:last-child {
+    background-image: url(../images/separate.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+}*/
+/*20.10.2016 изменил паддинг у меню*/
+/*.main_mnu a.separate_link {
+    font-size: 19px;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+    display: block;
+    transition: all .25s;
+    cursor: pointer; 
+}*/
+
+/*10.11 изменил на navmenu*/
+#navmenu li.point:hover  {
+  background-color: #6579ba;
+  
+}
+/*Удалить*/
+/*.ul_menu  li:hover .separate_link {
+  
+  background-color: #6579ba; 
+  
+}
+.separate .separate_link:hover {
+  background-color: #6579ba;
+}
+*/
+/*.lng_left {
+	float: left;
+	margin-left: 20px;
+}
+
+
+.lng_left_2 {
+  float: left;
+  margin-left: 39px;
+}
+*/
+
+
+/*.lng_left .lng_top {
+	margin-top: 18px;
+}
+.lng_right .lng_top {
+	margin-top: 18px;
+}*/
+
+/*Добавил класс .lng_center ul, убрал .lng_left ul,
+.lng_right ul*/
+.lng_center ul {
+	margin: 0;
+	padding: 0;
+  /*Центрирование*/
+	text-align: center;
+	font-size: 13px;
+}
+
+
+/*Добавил класс .lng_center li, убрал .lng_left li,
+.lng_right li*/
+.lng_center li {
+	list-style-type: none;
+	height: 25px;
+}
+
+
+/*Добавил класс .lng_center li a, убрал .lng_left li a,
+.lng_right li a*/
+.lng_center li a {
+	padding: 2px 8px;
+}
+.lng_left .lng_line {
+    height: 1px;
+    clear: both;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width: 300px;
+    background: #3b52a0;
+}
+
+
+//*Добавил класс .lng_center li a:hover, убрал .lng_left li a:hover,
+.lng_right li a:hover*/
+.lng_center li a:hover {
+	color: #fff;
+	background-color: #3b52a0;
+	border-radius: 8px;
+}
+/*Sub-lng*/
+.lngu .sub_lng {
+	background-image: url(../images/bg-lang-box.jpg);
+	background-repeat: repeat-x 50% 40%;
+  border-radius: 5px;
+    right: 0;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  padding: 12px;
+  position: absolute;
+  top: 0px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  visibility: hidden;
+  /*изменил ширину языков*/
+  width: 179px;
+
+
+  /*Изменил высоту на 76px*/
+  height: 76px;
+  color: #3b52a0;
+  margin-top: 0px;
+
+	border: 1px solid #3b52a0;
+	border-radius: 15px;
+	margin-top: 3px;
+
+}
+.language {
+	width: 180px;
+height: 43px;
+position: relative;
+
+padding: 0;
+color: #3b52a0;
+font-size: 14px;
+text-align: center;
+line-height: 2em;
+background: url("../images/lang-box2x.png") no-repeat;
+
+cursor: pointer;
+background-position: 0 0;
+height: 43px;
+}
+.lngu:hover .language {
+	background: url("../images/lang-box2x.png") no-repeat;
+	background-position: -180px 0;
+	height: 43px;
+	z-index: 98;
+}
+
+.lngu:hover .sub_lng {
+  opacity: 1;
+  top: 25px;
+  visibility: visible;
+  z-index: 97;
+}
+.menu .submenu {
+  background: #f0f9fe;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  /* 20.10.2016 Изменил лефт на 30*/
+  left: 37%; /*11.10 Изменить всойство*/
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  /*Изменил паддинг на 24*/
+  padding: 24px;
+  position: absolute;
+  top: 38px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  visibility: hidden;
+  /*Изменил ширину на 775 -----------------old--------*/
+  /*Изменил ширину на 406*/
+  width: 414px;
+  color: #3b52a0;
+  margin-top: 3px;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left; /*Добавить свойство 10.11*/
+  line-height: 24px; /*Добавить свойство 10.11*/
+}
+
+
+/* 20.10.206 Удалить menu .nontech*/
+/*.menu .nontech {
+  width: 313px;
+  left: 18%;
+}*/
+
+.menu .resources {
+  left: 15%;
+  width: 790px;
+}
+.menu .service {
+  left: 25%;
+  width: 790px;
+}
+.menu .company {
+  left: 31%;
+  width: 742px;
+}
+.menu .products { /*10.11.2016 Изменил лефт на 9*/
+  width: 643px;
+  left: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.no-js .menu:hover .submenu,
+.menu-hover:hover .submenu,
+.menu-click.menu-active .submenu {
+  opacity: 1;
+  top: 44px;
+  visibility: visible;
+}
+.menu .submenu:before,
+.menu .submenu::before {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: -6px;
+  width: 0;
+}
+.menu .resources:before {
+  left: 22%;
+}
+.menu .service:before {
+  left: 62%;
+}
+.menu .company:before {
+    left: 89%;
+}
+/* 20.10.2016 изменил лефт на 45*/
+.menu .products:before {
+  left: 45%;
+}
+.menu .submenu a {
+    color: #3b52a0;
+    display: inline-block;
+    line-height: 1.2em;
+    padding: 5px 0;
+    text-decoration: none;
+}
+.menu .submenu a:hover {
+    text-decoration: underline;
+}
+.menu .submenu .hover_menu a:hover {
+    background: #94a6d5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.f_left,
+.f_left .line {
+    float: left;
+    margin-right: 91px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    width: 187px;
+}
+.p_top {
+  width: 237px;
+}
+.resources .f_left {
+  margin-right: 10px;
+}
+.service .f_left {
+  margin-right: 33px;
+  margin-left: 35px;
+}
+.products .f_left {
+  margin-right: 0;
+  width: 236px;
+}
+/*Убрать класс*/
+/*.line_height {*/
+  /*line-height: 32px;*/
+/*}*/
+.f_left p {
+    margin: 0;
+    padding: 0;
+}
+.company .p_top p {
+  margin-top: 15px;
+}
+.company .p_top a.more {
+  padding-top: 15px;
+}
+.line:before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    /*Изменил ширину на 80*/
+    height: 80px;
+    background-color: #3b52a0;
+    /*Изменил лефт на 47*/
+    left: 47%;
+    margin-left: 5px;
+    bottom: 20px;
+}
+.resources .line:before {
+  left: 33%;
+  height: 177px;
+}
+.service .line:before {
+  left: 35%;
+}
+.company .line:before {
+  height: 277px;
+  left: 46%;
+}
+.products .line:before { /*Изменил высоту на 77px лефт на 47*/
+  height: 108px;
+  left: 47%;
+}
+.second_line:before {
+  position: absolute;
+    content: '';
+    width: 2px;
+    height: 177px;
+    background-color: #3b52a0;
+    left: 65%;
+    margin-left: 5px;
+    bottom: 20px;
+}
+.service .second_line:before {
+  height: 207px;
+  left: 67%;
+}
+.products .second_line:before {
+  height: 325px;
+  left: 68%;
+}
+.products .m_top a {
+  margin-top: 27px;
+}
+/*Синеватый ховер во всплывающем меню*/
+.sub_blue_menu { 
+  position: relative; 
+ /*na none*/
+  list-style-type: none;
+} 
+.sub_blue_menu, 
+.sub_blue_menu li { 
+  margin: 0; 
+  padding: 0; 
+} 
+.sub_blue_menu li { 
+  padding: 5px 10px; 
+  cursor: pointer;
+   /*изменил ширину на 267*/
+  width: 283px;
+  list-style-position: inside;
+}
+/* 20.10.2016 Удалить*/
+/*.nontech .sub_blue_menu li {
+  width: 140px;
+}*/
+
+.service .sub_blue_menu li {
+  width: 223px;
+}
+.products .sub_blue_menu li {/*Изменил ширину на 206*/
+  width: 210px;
+}
+.sub_blue_menu li .ul_span, 
+.sub_blue_menu:hover li:not(:hover) .ul_span {
+  position: absolute;
+  visibility: hidden;
+  border-radius: 6px;
+  font-weight: 300;
+}
+.sub_blue_menu li .training,
+.sub_blue_menu:hover li:not(:hover) .training {
+  top: -25%;
+  left: 168px;
+  width: 225px;
+}
+.sub_blue_menu li .promo,
+.sub_blue_menu:hover li:not(:hover) .promo {
+  top: 9%;
+  left: 168px;
+  width: 225px;
+}
+.sub_blue_menu li .for_wind,
+.sub_blue_menu:hover li:not(:hover) .for_wind {
+  top: -27%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_wind li { /*681 строка увеличил ширину с 276 до 280*/
+  width: 280px;
+}
+.sub_blue_menu li .for_mac,
+.sub_blue_menu:hover li:not(:hover) .for_mac {
+  top: 7%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_lin,
+.sub_blue_menu:hover li:not(:hover) .for_lin {
+  /*Изменил top на -57 -------------------old---------------------------------------*/
+  /*Изменил top на 42*/
+  top: 42%;
+  left: 180px;
+  width: 335px;
+}
+.sub_blue_menu li .for_lin li { /*686 строка увеличил ширину с 290 до 311*/
+  width: 311px;
+}
+.sub_blue_menu li .sys_drive,
+.sub_blue_menu:hover li:not(:hover) .sys_drive {
+  top: 57%;
+  left: 180px;
+  width: 235px;
+}
+.sub_blue_menu li .sys_drive li {
+  width: 200px;
+}
+.sub_blue_menu li .sys_drive li:hover,
+.sub_blue_menu li .for_lin li:hover,
+.sub_blue_menu li .for_mac li:hover,
+.sub_blue_menu li .for_wind li:hover,
+.sub_blue_menu li .promo li:hover,
+.sub_blue_menu li .training li:hover {
+    text-decoration: underline;
+}
+.sub_blue_menu li:hover .ul_span { 
+  visibility: visible;
+  background-color: #94a6d5; 
+  padding: 20px 25px;
+  list-style-type: disc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+} 
+.sub_blue_menu li:hover { 
+  border-radius: 6px;
+  background: #94a6d5;
+  color: #fff; 
+}
+.sub_blue_menu li:hover span a {
+  margin-left: 50px;
+  color: #fff;
+  pointer-events: none;
+}
+/*------*/
+.social {
+	margin-top: 10px;
+}
+.social a {
+	margin-right: 5px;
+}
+.sign {
+	border-radius: 6px;
+	border: none;
+	background-color: #fff;
+	color: #454c9e;
+	padding: 5px 9px;
+	margin-top: 6px;
+	font-size: 16px;
+}
+
+
+
+
+
+/*Добавил новые классы 10.11*/
+#navmenu {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#navmenu li {
+  border: none;
+  vertical-align: middle;
+}
+#navmenu li.point {
+  width: 186px;
+  height: 48px;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-image: none;
+  line-height: 2.2em;
+}
+#navmenu li.longpoint {
+  width: 290px;
+}
+#navmenu li.point a {
+  color: #fff;
+}
+#navmenu .linee {
+  width: 3px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  background: linear-gradient(to top, #fff, #3a529f);
+  margin-left: -3px;
+}
