@@ -1,9 +1,9 @@
-$(window).load(function(){
-	$("[data-toggle]").click(function() {
-	var toggle_el = $(this).data("toggle");
-	$(toggle_el).toggleClass("open-sidebar");
-	});
-});
+// $(window).load(function(){
+// 	$("[data-toggle]").click(function() {
+// 	var toggle_el = $(this).data("toggle");
+// 	$(toggle_el).toggleClass("open-sidebar");
+// 	});
+// });
 
 // прописал скрипт для стрелок футера 10.11
 
