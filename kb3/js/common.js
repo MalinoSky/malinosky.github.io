@@ -6,9 +6,7 @@ $(window).load(function(){
 });
 
 // прописал скрипт для стрелок футера 10.11
-$('.footer_click').click(function () {
-	$(this).find('span').toggleClass('actived');
-});
+
 /*------------------------*/
 $('.grad_light_blue.arrow_clicked, .grad_lighter_blue.arrow_clicked').click(function () {
 	$(this).find('span').toggleClass('actived');
