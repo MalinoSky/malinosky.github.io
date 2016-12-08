@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  position: 0; }
+
+.email_row {
+  font-family: Verdana;
+  color: #454545;
+  font-size: 14px;
+  line-height: 23px; }
+
+.email_biggest_promo {
+  background-color: #fff;
+  width: 100%;
+  background-size: cover; }
+
+.email_wrap {
+  margin: auto;
+  max-width: 698px;
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
+  padding-top: 180px; }
+
+.xwinds_hrefs img {
+  vertical-align: middle; }
+
+.xwind_herf {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle; }
+
+.xwinds_hrefs {
+  margin-left: 40px;
+  width: 300px; }
+
+.xwind_last {
+  color: #fff444;
+  font-size: 16px;
+  font-weight: bold; }
+
+.xwinds_left,
+.xwinds_right {
+  display: inline-block; }
+
+.learn_button {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 24px 0 53px 0;
+  margin: 0;
+  clear: both; }
+
+.learn_more {
+  color: #fff;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #82cd1c;
+  border-radius: 5px;
+  text-decoration: none; }
+
+.email_solutions {
+  padding: 0 0 0 0;
+  background-color: #FFF;
+  margin: auto;
+  max-width: 698px; }
+
+.href_check {
+  color: #f01c18;
+  display: inline-block;
+  line-height: 42px;
+  background-color: #fef3d4;
+  padding: 0 7px;
+  margin-bottom: 30px; }
+
+.button_check {
+  text-align: center; }
+
+.dear_p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #02266a;
+  margin: 0;
+  padding: 0 20px; }
+
+.dear_descr,
+.dear_p2 {
+  margin: 0;
+  padding: 0 20px 25px 20px; }
+
+.dear_descr_href {
+  color: #454545;
+  text-decoration: none; }
+
+.href_dvd {
+  color: #02266a;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px; }
+
+.mail_prod_item img.b {
+  width: 100%; }
+
+.mail_prod_item {
+  width: 273px;
+  display: inline-block;
+  padding: 5px 5px; }
+
+.title_dvd {
+  text-align: left; }
+
+.dvd_rip {
+  border-top: 1px dashed #b5b5b5;
+  margin: 0;
+  padding: 25px 0 0 0; }
+
+.email_center {
+  text-align: center; }
+
+.mail_product_wrap img {
+  width: 100%; }
+
+.mail_products_item {
+  width: 50%;
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

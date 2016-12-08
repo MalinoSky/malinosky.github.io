@@ -716,14 +716,26 @@
 	<script src="js/common.js"></script>
 	<script src="libs/jquery.touchSwipe/jquery.touchSwipe.min.js"></script>
 	<script>
-		$('body').swipe( {
-		//Single swipe handler for left swipes
-		swipeRight: function () {
-		    $.sidr('close', 'sidr-right');
-		},
-		//Default is 75px, set to 0 for demo so any distance triggers swipe
-		threshold: 45
-		});
+		// $('body').swipe( {
+		// //Single swipe handler for left swipes
+		// swipeRight: function () {
+		//     $.sidr('close', 'sidr-right');
+		// },
+		// //Default is 75px, set to 0 for demo so any distance triggers swipe
+		// threshold: 45
+		// });
+
+		$(window).touchwipe({
+        wipeLeft: function() {
+          // Close
+          $.sidr('close', 'sidr-main');
+        },
+        wipeRight: function() {
+          // Open
+          $.sidr('open', 'sidr-main');
+        },
+        preventDefaultEvents: false
+      });
 	</script>
 	<script>
         $(document).ready(function() {
