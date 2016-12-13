@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<!-- Подключил слайдер -->
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.css" />
+	<link rel="stylesheet" href="libs/slippry/slippry.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	
+<link rel="stylesheet" href="css/index.css" /> 
+<link rel="stylesheet" href="css/test.css" /> 
+	<link rel="stylesheet" href="css/main.css" />
+	<style>
+      .slideout-menu { left: auto; }
+      .btn-hamburger { left: auto; right: 12px;}
+      .box { height: 1500px; }
+    </style>
+
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+
+<!-- Лого и языки на десктопах и планшетах -->
+<header class="hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="logo">
+				<a href="#"><img src="images/Logo.svg" onerror="this.onerror=null; this.src='logo.png'" alt=""></a>
+				</div>
+				<div class="lngTitle hidden-md hidden-lg">
+				<form id="head-search">
+					<input name="search" placeholder="Suchen" size="20" type="text" >
+					<input name="loop" type="submit" value="">
+				</form>
+				<div class="lngu">
+				<div class="language">English</div>
+					<ul class="sub_lng">
+					<li class="lng_left">
+						<ul>
+							<li><a href="">English</a></li>
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Français</a></li>
+							<li><a href="">Русский</a></li>
+							<li><a href="">Čeština</a></li>
+							<li class="lng_line"></li>
+							<li><ul class="lng_top">
+								<li><a href="">Dansk</a></li>
+								<li><a href="">Español</a></li>
+								<li><a href="">Eesti</a></li>
+								<li><a href="">Hrvatski</a></li>
+								<li><a href="">Hungarian</a></li>
+								<li><a href="">Indonesia</a></li>
+								<li><a href="">Íslenska</a></li>
+								<li><a href="">Latviešu</a></li>
+								<li><a href="">Lietuva</a></li>
+								<li><a href="">Nederlands</a></li>
+								<li><a href="">Norsk</a></li>
+								<li><a href="">Português do Brasil</a></li>
+								<li><a href="">Português Europeu</a></li>
+								<li><a href="">România</a></li>
+							</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="lng_right">
+						<ul>
+							<li><a href="">English</a></li>
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Français</a></li>
+							<li><a href="">Русский</a></li>
+							<li><a href="">Čeština</a></li>
+							<li><ul class="lng_top">
+								<li><a href="">Dansk</a></li>
+								<li><a href="">Español</a></li>
+								<li><a href="">Eesti</a></li>
+								<li><a href="">Hrvatski</a></li>
+								<li><a href="">Hungarian</a></li>
+								<li><a href="">Indonesia</a></li>
+								<li><a href="">Íslenska</a></li>
+								<li><a href="">Latviešu</a></li>
+								<li><a href="">Lietuva</a></li>
+								<li><a href="">Nederlands</a></li>
+								<li><a href="">Norsk</a></li>
+								<li><a href="">Português do Brasil</a></li>
+								<li><a href="">Português Europeu</a></li>
+								<li><a href="">România</a></li>
+							</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-5 hidden-sm">
+				<div class="account">
+					Kontaktieren Sie uns: 0800-3232202 <br>
+                	<a href="#">Anmelden in MyAccount</a>
+				</div>
+			</div>
+			<div class="col-md-5 hidden-sm">
+				<div class="lngTitle">
+				<form id="head-search-xs">
+					<input name="search" placeholder="Suchen" size="20" type="text" >
+					<input name="loop" type="submit" value="">
+				</form>
+				<div class="lngu">
+				<div class="language">English</div>
+				
+				<ul class="sub_lng">
+					<li class="lng_left">
+						<ul>
+							<li><a href="">English</a></li>
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Français</a></li>
+							<li><a href="">Русский</a></li>
+							<li><a href="">Čeština</a></li>
+							<li class="lng_line"></li>
+							<li><ul class="lng_top">
+								<li><a href="">Dansk</a></li>
+								<li><a href="">Español</a></li>
+								<li><a href="">Eesti</a></li>
+								<li><a href="">Hrvatski</a></li>
+								<li><a href="">Hungarian</a></li>
+								<li><a href="">Indonesia</a></li>
+								<li><a href="">Íslenska</a></li>
+								<li><a href="">Latviešu</a></li>
+								<li><a href="">Lietuva</a></li>
+								<li><a href="">Nederlands</a></li>
+								<li><a href="">Norsk</a></li>
+								<li><a href="">Português do Brasil</a></li>
+								<li><a href="">Português Europeu</a></li>
+								<li><a href="">România</a></li>
+							</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="lng_right">
+						<ul>
+							<li><a href="">English</a></li>
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Français</a></li>
+							<li><a href="">Русский</a></li>
+							<li><a href="">Čeština</a></li>
+							<li><ul class="lng_top">
+								<li><a href="">Dansk</a></li>
+								<li><a href="">Español</a></li>
+								<li><a href="">Eesti</a></li>
+								<li><a href="">Hrvatski</a></li>
+								<li><a href="">Hungarian</a></li>
+								<li><a href="">Indonesia</a></li>
+								<li><a href="">Íslenska</a></li>
+								<li><a href="">Latviešu</a></li>
+								<li><a href="">Lietuva</a></li>
+								<li><a href="">Nederlands</a></li>
+								<li><a href="">Norsk</a></li>
+								<li><a href="">Português do Brasil</a></li>
+								<li><a href="">Português Europeu</a></li>
+								<li><a href="">România</a></li>
+							</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- -------------------------------------------------- -->
+<section class="top_mnu">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+					<nav class="main_mnu clearfix">
+					<ul class="ul_menu">
+						<li class="active separate  menu menu-hover"><a href="#" class="separate_link">Products</a>
+								<ul class="submenu products">
+								<li class="f_left line p_top"><a href="#1"><strong>Home & Home Office</strong></a>
+									<ul class="sub_blue_menu">
+										<li tabindex="0">Products for Windows ›
+													<ul class="ul_span for_wind">
+														<li> Hard Disk Manager 15 Suite</li>
+														<li>Hard Disk Manager 15 Professional</li>
+														<li>Drive Copy 15 Professional</li>
+														<li>Partition Manager 15</li>
+														<li> Backup & Recovery 15 Home</li>
+														<li>Disk Wiper 15 Professional</li>
+														<li>HFS+ for Windows 10</li>
+														<li>ExtFS for Windows</li>
+													</ul>
+										</li>
+										<li tabindex="0">Products for Mac ›
+											<ul class="ul_span for_mac">
+														<li>  NTFS for Mac 14</li>
+														<li> Camptune X</li>
+														<li>ExtFS for Mac 10</li>
+														<li>2-in-1 Mac-Bundle</li>
+														<li> 3-in-1 Mac-Bundle</li>
+														<li>Hard Disk Manager for Mac</li>
+											</ul>
+										</li>
+										<li>Software for Linux ›
+											<ul class="ul_span for_lin">
+														<li> NTFS&HFS+ for Linux 9.4 Professional</li>
+											</ul>
+										</li>
+										<li>File System Drivers ›
+												<ul class="ul_span sys_drive">
+														<li>NTFS for Mac 14</li>
+														<li>HFS+ for Windows 10</li>
+														<li>2-in-1 Mac-Bundle</li>
+														<li> ExtFS for Mac 10</li>
+														<li>ExtFS for Windows</li>
+											</ul>
+										</li>
+									</ul>
+										<span class="m_top"><a href="#"><strong>Compare all products</strong></a></span>
+										<span class="m_top"><a href="#" class="m_top"><strong>Mac Toolbox</strong></a><br></span>
+										<span class="m_top"><a href="#" class="m_top"><strong>Student Discount</strong></a></span>
+								</li>
+								<li class="f_left second_line "><a href="#1"><strong>Small Business</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Hard Disk Manager 15 Business</li>
+									</ul>
+									<a href="#"><strong>Medium & Large Business</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Paragon Protect & Restore</li>
+										<li>Hard Disk Manager 15 Premium</li>
+										<li>Paragon Deployment Manager 11</li>
+									</ul>
+									<a href="#"><strong>Where to buy?</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Find Resellers</li>
+									</ul>
+								</li>
+								<li class="f_left"><a href="#1"><strong>Technologies</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Migrate OS to SSD 4.0</li>
+										<li>GPT Loader</li>
+										<li>Paragon Alignment Tool</li>
+										<li>Partition Manager Server</li>
+										<li>Drive Backup Server</li>
+										<li>Exchange Granular Recovery</li>
+										<li>Snapshot for Mac OEM</li>
+									</ul>
+									<a href="#"><strong>Free Software</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Freeware (consumer)</li>
+										<li>Admin Toolbox</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Resources</a>
+							<ul class="submenu resources">
+								<li class="f_left line"><a href="#1"><strong>Home & Home Office</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Downloads</li>
+										<li>Manuals</li>
+										<li>License Overview</li>
+									</ul>
+								</li>
+								<li class="f_left second_line"><a href="#1"><strong>Small Business</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Downloads</li>
+										<li>Manuals</li>
+										<li>License Overview</li>
+										<li>Case Studies</li>
+									</ul>
+								</li>
+								<li class="f_left "><a href="#1"><strong>Medium & Large Business</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Downloads</li>
+										<li>Manuals</li>
+										<li>License Overview</li>
+										<li>White Papers</li>
+										<li>Case Studies</li>
+									</ul>
+								</li>
+								</ul>
+						</li>
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Partners</a>
+								<ul class="submenu">
+									<li class="f_left line"><a href="#1"><strong>For our partners</strong></a>
+										<ul class="sub_blue_menu"> 
+												<li tabindex="0">Сhannel Partners › <ul class="ul_span training"><li>Overview</li><li>Training Webinars</li></ul></li>
+												<li tabindex="0">Training Webinars ›<ul class="ul_span promo"><li>Overview</li><li>Promo Materials</li></ul> </li>
+												<li>Technology partner</li>
+										</ul>
+									<a href="#1"><strong>Where to buy</strong></a>
+									<ul class="sub_blue_menu">
+										<li >Find Resellers</li>
+										<li >Find Distribytors</li>
+									</ul>
+			                    	</li>
+			                       	<li class="f_left line_height"><a href="#2"><strong>Contact us</strong></a>
+			                    		<p>1-888-347-54-62</p>
+			                    		<a href="#">paragon-software.com</a><br>
+			                    		<a href="#">More contact details >></a><br>
+										<a href="#2"><strong>Partner login</strong></a><br>
+										<a href="#"><strong>Become a Paragon partner</strong></a>
+			                    	</li>
+			    				</ul>
+						</li>
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Service & Support</a>
+								<ul class="submenu service">
+									<li class="f_left line"><a href="#1"><strong>Support Services</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Overview</li>
+									</ul>
+									<a href="#"><strong>Self Support</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Try our new Knowledge Base!</li>
+										<li>Community Forum</li>
+										<li>Support Forum</li>
+										<li>Support FAQ</li>
+									</ul>
+									</li>
+									<li class="f_left"><a href="#1"><strong>MyParagon</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Manage licenses</li>
+										<li>Update products</li>
+										<li>Edit profile</li>
+										<li>Send request</li>
+									</ul>
+									<a href="#"><strong>Sign in to MyParagon ›</strong></a>
+									</li>
+									<li class="f_left second_line"><a href="#1"><strong>Update & Upgrade</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Product Upgrade & Update</li>
+										<li>Upgrade Assurance</li>
+									</ul>
+									<a href="#"><strong>Beta Program</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Early Adopter Program</li>
+										<li>Beta Testing Program</li>
+									</ul>
+									</li>
+								</ul>
+						</li>
+						<li class="separate menu menu-hover"><a href="#" class="separate_link">Company</a>
+							<ul class="submenu company">
+								<li class="f_left line"><a href="#1"><strong>Paragon Software Group</strong></a>
+									<ul class="sub_blue_menu">
+										<li>About Company</li>
+										<li> News</li>
+										<li>Employment</li>
+										<li>Awards</li>
+									</ul>
+								<a href="#"><strong>Pressroom</strong></a>
+									<ul class="sub_blue_menu">
+										<li>Media Contacts</li>
+										<li>Media Kits</li>
+										<li>Press releases</li>
+									</ul>
+								</li>
+								<li class="f_left p_top"><a href="#1"><strong>Contacts</strong></a>
+									<p>Paragon Software Group Corporation<br>100 Spectrum Center Drive, <br> Suite 1460, Irvine, CA 92618</p>
+									<p>US: 1-888-347-5462</p>
+									<p>Europe: +49-761-59018-202 <br>(corporate customers)</p>
+									<p>Europe: +49-761-59018-201 <br>(private customers)</p>
+									<a href="#" class="more">More contact details ›››</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+		</div>
+	</div>
+</div>
+</section>
+
+
+
+	<!-- Пункты мобильного меню -->
+    <nav id="menu" class="menus hidden-md hidden-lg hidden-sm">
+		
+	<ul class="accordion">
+
+	    <li class="accordion_item">
+	        <label class="accordion_trigger grad_blue arrow_clicked" for="toggle-01">Products<span class="arrow"></span></label>
+	        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-01" onclick="uncheckRadio(this);"/>
+	        <div class="accordion_target">
+	          
+	        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-1">Home Home and office<span class="arrow_blue"></span></label>
+	        <input type="checkbox" class="accordion_toggle" name="accordion-01-1" id="toggle-01-1"/>
+	        <div class="accordion_target accordion_target_bottom">
+
+	            <label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-1">Products for Windows<span class="arrow_blue "></span></label>
+	<input type="checkbox" class="accordion_toggle" name="accordion-01-1-1" id="toggle-01-1-1"/>
+	        <div class="accordion_target">
+	        
+	        <ul>
+	        	<li><a href="#">Hard disk Manager</a></li>
+	        	<li><a href="#">Hard Disk Manager 15 Professional</a></li>
+	        	<li><a href="#">Drive Copy 15 Professional</a></li>
+	        	<li><a href="#">Partition Manager 15</a></li>
+	        	<li><a href="#">Backup & Recovery 15 Home</a></li>
+	        	<li><a href="#">Disk Wiper 15 Professional</a></li>
+	        	<li><a href="#">HFS+ for Windows 10</a></li>
+	        	<li><a href="#">ExtFS for Windows</a></li>
+	        </ul>
+	        </div>
+
+			<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-2">Products for Mac<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-1-2" id="toggle-01-1-2"/>
+					<div class="accordion_target">
+						<ul>
+						<li><a href="#">NTFS for Mac 14</a></li>
+						<li><a href="#">Camptune X</a></li>
+						<li><a href="#">ExtFS for Mac 10</a></li>
+						<li><a href="#">2-in-1 Mac-Bundle</a></li>
+						<li><a href="#">3-in-1 Mac-Bundle</a></li>
+						<li><a href="#">Hard Disk Manager for Mac</a></li>
+						</ul>
+					</div>
+
+			<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-3">Software for Linux<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-1-3" id="toggle-01-1-3"/>
+					<div class="accordion_target">
+					<!-- Добаить класс accord_for_linux -->
+						<ul class="accord_for_linux">
+						<li><a href="#">NTFS&HFS+ for Linux 9.4 Professional</a></li>
+						</ul>
+					</div>
+
+			<label class="accordion_trigger grad_lighter_blue font_light arrow_clicked" for="toggle-01-1-4">File System Drivers<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-1-4" id="toggle-01-1-4"/>
+					<div class="accordion_target">
+						<ul>
+						<li><a href="#">NTFS for Mac 14</a></li>
+						<li><a href="#">HFS+ for Windows 10</a></li>
+						<li><a href="#">2-in-1 Mac-Bundle</a></li>
+						<li><a href="#">ExtFS for Mac 10</a></li>
+						<li><a href="#">ExtFS for Windows</a></li>
+						</ul>
+					</div>
+
+
+
+
+	        </div>
+
+			<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-2">Compare all products</label>
+	        <input type="checkbox" class="accordion_toggle" name="accordion-01-2" id="toggle-01-2"/>
+	        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-3">Mac Toolbox</label>
+	        <input type="checkbox" class="accordion_toggle" name="accordion-01-3" id="toggle-01-3"/>
+	        <label class="accordion_trigger grad_light_blue border_bottom" for="toggle-01-4">Student Discount</label>
+	        <input type="checkbox" class="accordion_toggle" name="accordion-01-4" id="toggle-01-4"/>
+
+	        <label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-5">Small Business<span class="arrow_blue "></span></label>
+	        <input type="checkbox" class="accordion_toggle" name="accordion-01-5" id="toggle-01-5"/>
+	        <div class="accordion_target grad_lighter_blue">
+						<ul>
+							<li><a href="#">Hard Disk Manager 15 Business</a></li>
+						</ul>
+			</div>
+			<label class="accordion_trigger grad_light_blue  border_bottom arrow_clicked" for="toggle-01-6">Medium & Large Business<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-6" id="toggle-01-6"/>
+					<div class="accordion_target grad_lighter_blue">
+						<ul>
+						<li><a href="#">Paragon Protect & Restore</a></li>
+						<li><a href="#">Hard Disk Manager 15 Premium</a></li>
+						<li><a href="#">Paragon Deployment Manager 11</a></li>
+						</ul>
+					</div>
+			<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-7">Where to buy<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-7" id="toggle-01-7"/>
+					<div class="accordion_target grad_lighter_blue">
+						<ul>
+						<li><a href="#">Find Resellers</a></li>
+						</ul>
+					</div>
+			<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-8">Technologies<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-8" id="toggle-01-8"/>
+					<div class="accordion_target grad_lighter_blue">
+						<ul>
+						<li><a href="#">Migrate OS to SSD 4.0</a></li>
+						<li><a href="#">GPT Loader</a></li>
+						<li><a href="#"> Paragon Alignment Tool</a></li>
+						<li><a href="#">Partition Manager Server</a></li>
+						<li><a href="#">Drive Backup Server</a></li>
+						<li><a href="#">Exchange Granular Recovery</a></li>
+						<li><a href="#">Snapshot for Mac OEM</a></li>
+						</ul>
+					</div>
+			<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-01-9">Free Software<span class="arrow_blue "></span></label>
+				<input type="checkbox" class="accordion_toggle" name="accordion-01-9" id="toggle-01-9"/>
+					<div class="accordion_target grad_lighter_blue">
+						<ul>
+						<li><a href="#">Freeware (consumer)</a></li>
+						<li><a href="#">Admin Toolbox</a></li>
+						<li><a href="#"> Paragon Alignment Tool</a></li>
+						<li><a href="#">Partition Manager Server</a></li>
+						<li><a href="#">Drive Backup Server</a></li>
+						<li><a href="#">Exchange Granular Recovery</a></li>
+						<li><a href="#">Snapshot for Mac OEM</a></li>
+						</ul>
+					</div>
+
+
+
+
+
+	        </div>
+
+
+			<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-02">Resources<span class="arrow"></span></label>
+	        <input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" onclick="uncheckRadio(this);"/>
+	        <div class="accordion_target">
+				<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-1">Home & Home Office<span class="arrow_blue"></span></label>
+	        	<input type="checkbox" class="accordion_toggle" name="accordion-02-1" id="toggle-02-1"/>
+	        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+	        		<ul>
+	        			<li><a href="#">Downloads</a></li>
+	        			<li><a href="#">Manuals</a></li>
+	        			<li><a href="#">License Overview</a></li>
+	        		</ul>
+	        	</div>
+	        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-2">Small Business<span class="arrow_blue"></span></label>
+	        	<input type="checkbox" class="accordion_toggle" name="accordion-02-2" id="toggle-02-2"/>
+	        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+	        		<ul>
+	        			<li><a href="#">Downloads</a></li>
+	        			<li><a href="#">Manuals</a></li>
+	        			<li><a href="#">License Overview</a></li>
+	        			<li><a href="#">Case Studies</a></li>
+	        		</ul>
+	        	</div>
+	        	<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-02-3">Medium & Large Business<span class="arrow_blue"></span></label>
+	        	<input type="checkbox" class="accordion_toggle" name="accordion-02-3" id="toggle-02-3"/>
+	        	<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+	        		<ul>
+	        			<li><a href="#">Downloads</a></li>
+	        			<li><a href="#">Manuals</a></li>
+	        			<li><a href="#">License Overview</a></li>
+	        			<li><a href="#">White Papers</a></li>
+	        			<li><a href="#">Case Studies</a></li>
+	        		</ul>
+	        	</div>
+
+				
+
+	        </div>
+			
+
+				<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-03">Partners<span class="arrow"></span></label>
+				<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-03" onclick="uncheckRadio(this);"/>
+				<div class="accordion_target">
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-1">For our partners<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-1" id="toggle-03-1"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<label class="accordion_trigger grad_lighter_blue arrow_clicked" for="toggle-03-3-1">Channel Partners<span class="arrow_blue"></span></label>
+						<input type="checkbox" class="accordion_toggle" name="accordion-03-3-1" id="toggle-03-3-1"/>
+						<div class="accordion_target">
+							<ul>
+								<li><a href="#">Overview</a></li>
+								<li><a href="#">Training Webinars</a></li>
+							</ul>
+						</div>
+
+						<label class="accordion_trigger grad_lighter_blue arrow_clicked" for="toggle-03-3-2">Training Webinars<span class="arrow_blue"></span></label>
+						<input type="checkbox" class="accordion_toggle" name="accordion-03-3-2" id="toggle-03-3-2"/>
+						<div class="accordion_target">
+							<ul>
+								<li><a href="#">Overview</a></li>
+								<li><a href="#">Promo Materials</a></li>
+							</ul>
+						</div>
+						<label class="accordion_trigger grad_lighter_blue " for="toggle-03-3-3">Tehnology Partner</label>
+						<input type="checkbox" class="accordion_toggle" name="accordion-03-3-3" id="toggle-03-3-3"/>
+					
+						</div>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-03-2">Where to buy<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-2" id="toggle-03-2"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Find Resellers</a></li>
+							<li><a href="#">Find Distribytors</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-3">Contant us</label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-3" id="toggle-03-3"/>
+					<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-4">Partner login</label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-4" id="toggle-03-4"/>
+					<label class="accordion_trigger grad_light_blue border_bottom" for="toggle-03-5">Become a Paragon Partner</label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-03-5" id="toggle-03-5"/>
+					</div>
+				<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-04">Service & Support<span class="arrow"></span></label>
+				<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-04" onclick="uncheckRadio(this);"/>
+				<div class="accordion_target">
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-4">Support Services<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-4" id="toggle-04-4"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Overview</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-5">Self Support<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-5" id="toggle-04-5"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Try our new Knowledge Base!</a></li>
+							<li><a href="#">Community Forum</a></li>
+							<li><a href="#">Support Forum</a></li>
+							<li><a href="#">Support FAQ</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-6">MyParagon<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-6" id="toggle-04-6"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Manage licenses</a></li>
+							<li><a href="#">Update products</a></li>
+							<li><a href="#">Edit profile</a></li>
+							<li><a href="#">Send request</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-04-7">Sign in to MyParagon</label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-7" id="toggle-04-7"/>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-8">Update & Upgrade<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-8" id="toggle-04-8"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Product Upgrade & Update</a></li>
+							<li><a href="#">Upgrade Assurance</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-04-9">Beta Program<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-04-9" id="toggle-04-9"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Early Adopter Program</a></li>
+							<li><a href="#">Beta Testing Program</a></li>
+						</ul>
+					</div>
+				</div>
+				<label class="accordion_trigger grad_blue arrow_clicked" for="toggle-05">Company<span class="arrow"></span></label>
+				<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-05" onclick="uncheckRadio(this);"/>
+				<div class="accordion_target">
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-05-5">Paragon Software Group<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-05-5" id="toggle-05-5"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">About Company</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Employment</a></li>
+							<li><a href="#">Awards</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom arrow_clicked" for="toggle-05-6">Pressroom<span class="arrow_blue"></span></label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-05-6" id="toggle-05-6"/>
+					<div class="accordion_target  grad_lighter_blue accordion_target_bottom">
+						<ul>
+							<li><a href="#">Media Contacts</a></li>
+							<li><a href="#">Media Kits</a></li>
+							<li><a href="#">Employment</a></li>
+							<li><a href="#">Press releases</a></li>
+						</ul>
+					</div>
+					<label class="accordion_trigger grad_light_blue border_bottom " for="toggle-05-7">Contacts</label>
+					<input type="checkbox" class="accordion_toggle" name="accordion-05-7" id="toggle-05-7"/>
+			</div>
+	    </li>
+    </ul>
+
+    </nav>
+
+<section id="panel" class="panel">
+<!-- Шапка для адаптива -->
+  <div class="panel-header">
+    <div class="main-content hidden-md hidden-ld hidden-sm">
+		<a class="basic js-slideout-toggle" id="right-menu"  href="#sidr">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="row">
+		<div class="col-xs-6">
+		<!-- Тут к а добавил класс для позиционирования лого -->
+			<a href="#" class="logo_left"><img src="images/Logo_small.svg" onerror="this.onerror=null; this.src='logo.png'" alt=""></a>
+			</div>
+		</div>
+	</div>
+  </div>
+<!-- Конец шапки для адаптива -->
+
+<!-- Тут пишем все контентные секции -->
+<section>
+	<div class="main_slider">
+		<ul class="bxslider">
+			<li><span class="hidden-sm hidden-xs"><img src="images/bunner.png" alt="" /></span>
+				<span class="hidden-md hidden-lg hidden-xs"><img src="images/bunner2.png" alt=""/></span>
+				<span class="hidden-md hidden-lg hidden-sm"><img src="images/bunner3.png" alt=""/></span></li>
+			<li><span class="hidden-sm hidden-xs"><img src="images/bunner.png" alt="" /></span>
+				<span class="hidden-md hidden-lg hidden-xs"><img src="images/bunner2.png" alt=""/></span>
+				<span class="hidden-md hidden-lg hidden-sm"><img src="images/bunner3.png" alt=""/></span></li>
+			<li><span class="hidden-sm hidden-xs"><img src="images/bunner.png" alt="" /></span>
+			<span class="hidden-md hidden-lg hidden-xs"><img src="images/bunner2.png" alt=""/></span>
+			<span class="hidden-md hidden-lg hidden-sm"><img src="images/bunner3.png" alt=""/></span></li>				
+		</ul>
+	</div>
+</section>
+<section class="switches hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="switches_descr">
+					<ul class="tabs_menu">
+						<li><a href="#tab1">Home & Home Offiffice</a></li>
+						<li><a href="#tab2">Business Solutions</a></li>
+						<li><a href="#tab3">Embedded & OEM Solutions</a></li>
+					</ul>
+				</nav> 
+			</div>
+		</div>
+	</div>
+</section>
+<nav class="switches_descr hidden-md hidden-lg hidden-sm">
+	<ul class="tabs_menu">
+		<li><a href="#tab1">Home & Home Offiffice</a></li>
+		<li><a href="#tab2">Business Solutions</a></li>
+		<li><a href="#tab3">Embedded & OEM Solutions</a></li>
+	</ul>
+</nav>
+
+<section class="intro tab" id="tab1">
+	<section class="main_section">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>Home & Home Office</h2>
+					<div class="descr_main">
+						<h3>Easy to use backup, system management <br> and cross-platform solutions for Windows and Mac</h3>
+					</div>
+				</div>
+
+				<div class="col-md-4 main_bottom">
+					<div class="border_main">
+						<div class="home_office_products">
+							<h4>HDM-Based Products</h4>
+							<p>Net molorum a etur re dolum fugit modiatur rerehendit ius!</p>
+						</div>
+
+						<div class="img_main">
+							<img src="images/main_img.png" alt="dd">
+						</div>
+						
+						<div class="main_descr_href">
+							<a href="#" class="main_href">e.g. Hard Disk Manager 16</a>
+						</div>
+
+						<p>Net molorum a etur re dolum fugit modiatur
+						rerehendit, untiundae ius, vit et verchil lacerehent.
+						Nonse pa veliquiae autem ipsunte mi, te corum
+						harum harum ipsanihil et ad molupta tionseq
+						uatem. Icia quia quo et dis et laut explis et.NTFS
+						volumes.
+						</p>
+
+						<div class="main_buttons">
+							<a href="#" class="button_red_main"><span class="main_span">s.f. $29.95 ›</span></a>
+							<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+						</div>					
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Backup & Recovery</b></span><br><span class="button_descr">ipsanihil et ad molupta tionseq</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Disk Wiper</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Partition Manager</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Hyper V</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="" >
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Drive Copy</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="" >
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_all_md_button">
+								<span class="button_btn_href_name"><strong>All Hdm-based Products ›</strong></span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4  main_bottom">
+					<div class="border_main">
+						<div class="home_office_products">
+							<h4>Mac Products</h4>
+							<p>Solore occus, officab inverionem aut enecte volupta consequatium.</p>
+						</div>
+
+						<div class="img_main">
+							<img src="images/main_img.png" alt="dd">
+						</div>
+						
+						<div class="main_descr_href">
+							<a href="#" class="main_href">e.g. NTFS for Mac 14</a>
+						</div>
+
+						<p class="p_mac_products">Optios eatiis que et velendit eictur, comnit harum quiam isi volum quidicim voloreptas repernam eum qui cus, te nisquo moluptaqui tempellam, solore occus, officab dolum volor.
+						</p> 
+
+						<div class="main_buttons">
+							<a href="#" class="button_red_main"><span class="main_span">s.f. $29.95 ›</span></a>
+							<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+						</div>					
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>ExtFS for Mac</b></span><br><span class="button_descr">ipsanihil et ad molupta tionseq</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Camptune X</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Snapshot for Mac</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>3-in-1 Mac-Bundle</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_all_md_button">
+								<span class="button_btn_href_name"><strong>All Mac-Products ›</strong></span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4   main_bottom">
+					<div class="border_main">
+						<div class="home_office_products">
+							<h4>Data-System Driver</h4>
+							<p>Fugit modiatur rerehendit, untiundae ius, vit et lacerehent.</p>
+						</div>
+
+						<div class="img_main">
+							<img src="images/main_img.png" alt="dd">
+						</div>
+						
+						<div class="main_descr_href">
+							<a href="#" class="main_href">e.g. HFS+ for Windows</a>
+						</div>
+
+						<p class="p_data_system">Evende ne denduciae nimpere con pa dolut
+						facepudant, offictibus, sequodicid moluptat rem
+						quam quidit audio conemporem vit a non
+						porepro evellatur? Atis et rerspelle ne volut verit que
+						ius sit ommo cum sunt que sitas veritia.
+						</p>
+
+						<div class="main_buttons">
+							<a href="#" class="button_red_main"><span class="main_span">s.f. $29.95 ›</span></a>
+							<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+						</div>					
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Backup & Recovery</b></span><br><span class="button_descr">ipsanihil et ad molupta tionseq</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Disk Wiper</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Partition Manager</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_md_button">
+								<span class="button_btn_name"><span><b>Hyper V</b></span><br><span class="button_descr">Si re moluptatur sequodi</span></span><img src="images/arrow_light.png" alt="">
+							</a>
+						</div>
+						<div class="main_md_button">
+							<a href="#" class="href_all_md_button">
+								<span class="button_btn_href_name"><strong>All Hdm-based Products ›</strong></span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="support">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Support</h2></div>
+					<div class="col-md-12">
+						<div class="support_img">
+							<img src="images/support.png" alt="">
+					</div>
+					<div class="align_tour">
+						<p>Enjoy free online support! In case of any problems, our effective and top-quality support will help you out. All of our consumer products come with free support throughout the entire lifecycle. <a href="#"> Learn more ›</a></p>
+					</div>
+					<div class="href_right">
+						<a href="#">Support Request › </a>
+						<a href="#">Support Forum › </a>
+						<a href="#">My Paragon ›</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="options">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Options</h2></div>
+					<div class="col-md-12">
+						<div class="align_tour">
+				
+							<ul class="bxslider">
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+							</ul>
+						</div>
+						<div class="button_bench">
+							<button class="button_bench_buy">
+								<span>Buy Now</span>
+							</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="awards">
+		<div class="container">
+			<div class="title"><h2>Awards</h2></div>
+				<div class="row">
+					<div class="col-md-2 col-sm-4">
+						<div class="awards_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="award_descr"><h3>»5/5 stars«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="awards_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="award_descr"><h3>»Best Software of the year«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="awards_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="award_descr"><h3>»8 stars out of 10«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="awards_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="award_descr"><h3>»4,5 points out of 5«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="awards_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="award_descr"><h3>»Autho’s choice«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+					<div class="award_descr">
+						<p>Mac® & the Mac® Logo are trademarks of Apple Inc., registered in the U.S. and other countries. Windows® & the Windows® Logo are trademarks of Microsoft Corporation., registered in the U.S. and other countries.</p>
+					</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	
+
+
+</section>
+
+
+
+
+
+<section class="business_sol tab" id="tab2">
+	<section class="main_section">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>Business Solutions</h2>
+					<div class="descr_main">
+						<h3>Modern data protection, availability and storage <br> management solutions for discerning companies</h3>
+					</div>
+				</div>
+				
+					
+						
+						<div class="col-md-8 bisness_pad_no_left">
+							<div class="main_business_descr_left">
+							<div class="business_img">
+								<img src="images/protect.png" alt="">
+							</div>
+								<h3>Paragon Protect & Restore</h3>
+								<p>Net molorum a etur re dolum fugit modiatur rerehendit, untiundae ius, vit et verchil lacerehent. Nonse pa veliquiae autem ipsunte mi, te corum harum harum ipsanihil et ad molupta tionseq uatem. Icia quia quo et dis et laut explis et. NTFS volumes.</p>
+								<div class="business_buttons">
+									<div class="main_buttons">
+										<a href="#" class="button_red_main"><span class="main_span">s.f. $29.95 ›</span></a>
+										<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 bisness_pad_no_right">
+						
+							<div class="main_business_descr_right hidden-sm hidden-xs">
+								<div class="main_business_cases">
+									<h4>Case Studies</h4>
+									<a href="#">Net molorum a etur re dolum fugit modiatur ›</a><br>
+									<a href="#">Nonse pa veliquiae autem ipsunte mi ›</a><br>
+									<a href="#">Te corum harum harum › </a><br><br>
+									<h4>Whitepapers</h4>
+									<a href="#"> Ipsanihil et ad molupta tionseq uatem ›</a><br>
+									<a href="#">NTFS volumes ›</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-12   business_bot">
+
+						<div class="business_descr">
+							<div class="hidden-sm hidden-xs">
+								<div id="feat1" class="FeatureItem" style="display:none; border-bottom: 1px solid; ">
+								;;;
+								</div>
+								</div>
+
+								<div id="feat2" class="FeatureItem hidden-md hidden-lg" style="display:none; border-bottom: 1px solid; ">
+									<div style="margin-top: -1px;">
+								<div class="main_business_cases">
+									<h4>Case Studies</h4>
+									<a href="#">Net molorum a etur re dolum fugit modiatur ›</a><br>
+									<a href="#">Nonse pa veliquiae autem ipsunte mi ›</a><br>
+									<a href="#">Te corum harum harum › </a><br><br>
+									<h4>Whitepapers</h4>
+									<a href="#"> Ipsanihil et ad molupta tionseq uatem ›</a><br>
+									<a href="#">NTFS volumes ›</a>
+								</div>
+							</div>
+								</div>
+
+
+								<div id="Category1" class="categ hidden-sm hidden-xs">
+								<div id="color1" class="CategoryTitle">
+									<div id="pic1" class="arrowGr" onclick="arr('1');">
+										<span>More</span>
+									</div>
+								</div>
+								</div>
+
+								<div id="Category2" class="categ hidden-md hidden-lg" style="margin-top: -1px;">
+								<div id="color2" class="CategoryTitle">
+									<div id="pic2" class="arrowGr" onclick="arr('2');">
+										<span>More</span>
+									</div>
+								</div>
+								</div>
+						</div>
+						</div>
+
+						<div class="col-md-8 bisness_pad_no_left">
+							<div class="main_business_descr_left">
+							<div class="business_img">
+								<img src="images/protect.png" alt="">
+							</div>
+								<h3>Paragon Protect & Restore</h3>
+								<p>Net molorum a etur re dolum fugit modiatur rerehendit, untiundae ius, vit et verchil lacerehent. Nonse pa veliquiae autem ipsunte mi, te corum harum harum ipsanihil et ad molupta tionseq uatem. Icia quia quo et dis et laut explis et. NTFS volumes.</p>
+								<div class="business_buttons">
+									<div class="main_buttons">
+										<a href="#" class="button_red_main"><span class="main_span">s.f. $29.95 ›</span></a>
+										<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 bisness_pad_no_right">
+						
+							<div class="main_business_descr_right">
+								<div class="main_business_cases">
+									<h4>Case Studies</h4>
+									<a href="#">Net molorum a etur re ›</a><br>
+									<a href="#">Dolum fugit modiatur ›</a><br><br>
+									
+									<h4>Whitepapers</h4>
+									<a href="#">Rerehendit ›</a><br>
+									<a href="#">Ius vit lacerehent ›</a>
+								</div>
+							</div>
+						</div>
+					
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="support">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Support</h2></div>
+					<div class="col-md-12">
+						<div class="support_img">
+							<img src="images/support.png" alt="">
+					</div>
+					<div class="align_tour">
+						<p>Enjoy free online support! In case of any problems, our effective and top-quality support will help you out. All of our consumer products come with free support throughout the entire lifecycle. <a href="#"> Learn more ›</a></p>
+					</div>
+					<div class="href_right">
+						<a href="#">Support Request › </a>
+						<a href="#">Support Forum › </a>
+						<a href="#">My Paragon ›</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="options">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Options</h2></div>
+					<div class="col-md-12">
+						<div class="align_tour">
+				
+							<ul class="bxslider">
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+							</ul>
+						</div>
+						<div class="button_bench">
+							<button class="button_bench_buy">
+								<span>Buy Now</span>
+							</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="technologies">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Technologies</h2></div>
+				<div class="col-md-4">
+					<div class="tech_md_button">
+						<a href="#" class="href_tech_button">
+							<span class="tech_button_btn_name"><span><b>Migrate OS 5.0</b></span><br><span class="tech_button_descr">Fast and easy OS migration to Solid State Drives (SSD)!</span></span><img src="images/arrow_light.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="tech_md_button">
+						<a href="#" class="href_tech_button">
+							<span class="tech_button_btn_name"><span><b>GPT Loader</b></span><br><span class="tech_button_descr">True support of 2.2TB+ drives under any Windows OS XP!</span></span><img src="images/arrow_light.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="tech_md_button">
+						<a href="#" class="href_tech_button">
+							<span class="tech_button_btn_name"><span><b>Paragon Alignment Tool</b></span><br><span class="tech_button_descr">Want to get the most out of your ESX® or Hyper-V infrastructure?</span></span><img src="images/arrow_light.png" alt="">
+						</a>
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="tech_md_button">
+						<a href="#" class="href_tech_button">
+							<span class="tech_button_btn_name"><span><b>Partition Manager Server</b></span><br><span class="tech_button_descr">Maximize performance of physical Windows® Server!</span></span><img src="images/arrow_light.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="tech_md_button">
+						<a href="#" class="href_tech_button">
+							<span class="tech_button_btn_name"><span><b>Drive Backup Server</b></span><br><span class="tech_button_descr">Specifically designed for System Builders!</span></span><img src="images/arrow_light.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+</section>
+
+<section class="embedded tab" id="tab3">
+	<section class="main_embedded_section">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>Embedded & OEM Solutions</h2>
+					<div class="descr_main">
+						<h3>Modern data protection, availability and storage <br> management solutions for discerning companies</h3>
+					</div>
+				</div>
+				<div class="col-md-8 bisness_pad_no_left">
+							<div class="main_business_descr_left">
+							<div class="business_img">
+								<img src="images/protect.png" alt="">
+							</div>
+								<h3>Paragon Protect & Restore</h3>
+								<p><strong>Fast and easy OS migration to Solid State Drives (SSD)!</strong> Ready to upgrade to a new Solid State Drive (SSD)? Paragon’s Migrate OS to SSD is just what you need.</p>
+								<div class="business_buttons embedded_btn">
+									<div class="main_buttons">
+										<a href="#" class="button_blue_main"><span class="main_span">Try now ›</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 bisness_pad_no_right">
+						
+							<div class="main_business_descr_right">
+								<div class="main_business_cases">
+									<h4>Whitepapers</h4>
+									<a href="#">Net molorum a etur re dolum fugit modiatur ›</a><br>
+									<a href="#">Nonse pa veliquiae autem ipsunte mi › </a><br>
+									<a href="#"> Te corum harum harum › </a><br><br>
+									<h4>Further Infos</h4>
+									<a href="#">Ipsanihil et ad molupta tionseq uatem › </a><br>
+									<a href="#">NTFS volumes ›</a>
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section class="support">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Support</h2></div>
+					<div class="col-md-12">
+						<div class="support_img">
+							<img src="images/support.png" alt="">
+					</div>
+					<div class="align_tour">
+						<p>Enjoy free online support! In case of any problems, our effective and top-quality support will help you out. All of our consumer products come with free support throughout the entire lifecycle. <a href="#"> Learn more ›</a></p>
+					</div>
+					<div class="href_right">
+						<a href="#">Support Request › </a>
+						<a href="#">Support Forum › </a>
+						<a href="#">My Paragon ›</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="options">
+		<div class="container">
+			<div class="row">
+				<div class="title"><h2>Options</h2></div>
+					<div class="col-md-12">
+						<div class="align_tour">
+				
+							<ul class="bxslider">
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+								<li><p class="opin">»If you have a Mac and you need to access volumes that are formatted NTFS, this is the best solution out there. Why Apple hasn't just baked in support for NTFS after all these years still remains a mystery. I've been using Paragon NTFS for several years now and have never had any problems with it.«</p><p class="a_left"><a href="#">Tell us your own opinion here </a></p><p class="a_right"><strong>H.Jeynes</strong></p></li>
+							</ul>
+						</div>
+						<div class="button_bench">
+							<button class="button_bench_buy">
+								<span>Buy Now</span>
+							</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="clients">
+		<div class="container">
+			<div class="title"><h2>Clients</h2></div>
+				<div class="row">
+					
+					
+						<div class="col-md-1"></div>
+						<div class="col-md-2 col-sm-4">
+							<div class="clients_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="clients_descr"><h3>»Hilzinger IT-Lösungen«</h3></div>
+						
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="clients_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="clients_descr"><h3>»Scheufler Computer«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4">
+						<div class="clients_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="clients_descr"><h3>»Feiler IT-Service«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4 offset-clients">
+						<div class="clients_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="clients_descr"><h3>»Grösch Computer«</h3></div>
+					</div>
+					<div class="col-md-2 col-sm-4 ">
+						<div class="clients_img">
+							<img src="images/awards.png" alt="">
+						</div>
+						<div class="clients_descr"><h3>»EPS Computertechnik«</h3></div>
+					</div>
+					<div class="col-md-1"></div>
+					
+				</div>
+		</div>
+	</section>
+</section>
+
+
+<!-- конец контентной области -->
+
+
+
+<section class="footer">
+	<div class="container">
+		<div class="row">
+		<div class="blocks">
+			<div class="block_1">
+				<div class="block1">
+				<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>For Windows</strong></a><br>
+						<a href="#">Hard Disk Manager</a><br>
+						<a href="#">Drive Backup</a><br>
+						<a href="#">Partition Manager</a><br>
+						<a href="#">Drive Copy</a><br>
+						<a href="#">Protect & Restrore</a><br>
+					</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-1" class="hide"/>
+							<label for="hd-1" class="arrow_clicked">For windows<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">Hard Disk Manager</a><br>
+								<a href="#">Drive Backup</a><br>
+								<a href="#">Partition Manager</a><br>
+								<a href="#">Drive Copy</a><br>
+								<a href="#">Protect & Restrore</a><br>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="block12">
+				<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>For Mac</strong></a><br>
+						<a href="#">NTFS for Mac </a><br>
+						<a href="#">Camptune X</a><br>
+						<a href="#">Boot Camp Backup</a><br>
+						<a href="#">Rescue Kit for Mac</a><br>
+						<a href="#">Protect & Restrore</a><br>
+					</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-2" class="hide"/>
+							<label for="hd-2" class="arrow_clicked">For Mac<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">NTFS for Mac </a><br>
+								<a href="#">Camptune X</a><br>
+								<a href="#">Boot Camp Backup</a><br>
+								<a href="#">Rescue Kit for Mac</a><br>
+								<a href="#">Protect & Restrore</a><br>
+							</div>
+						</div>
+					</div>
+					<div class="block112">
+						<div class="footer_line"></div>
+						<div class="hidden-xs">
+								<a href="#"><strong>Partners</strong></a><br>
+								<a href="#">Paragon Partner Program </a><br>
+								<a href="#">Paragon Affiliate Program </a>
+						</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-3" class="hide"/>
+								<label for="hd-3" class="arrow_clicked">Partners<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">Paragon Partner Program</a><br>
+									<a href="#">Paragon Affiliate Program</a><br>
+								</div>
+							</div>
+						</div>	
+					</div>
+			</div>
+			<div class="block13">
+				<div class="footer_line"></div>
+				<div class="hidden-xs">
+					<a href="#"><strong>Tehnologies</strong></a><br>
+					<a href="#">Migtate OS to SSD</a><br>
+					<a href="#">GPT Loader</a><br>
+					<a href="#">Aligment Tool</a><br>
+					<a href="#">NTFS-HFS Converter</a><br>
+				</div>
+					<div class="hidden-sm hidden-md hidden-lg">
+						<div class="hide_blocks">
+							<input type="checkbox" id="hd-4" class="hide"/>
+							<label for="hd-4" class="arrow_clicked">Tehnologies<span class="arrow_footer"></span></label>
+							<div class="non">
+								<a href="#">Migtate OS to SSD</a><br>
+								<a href="#">GPT Loader</a><br>
+								<a href="#">Aligment Tool</a><br>
+								<a href="#">NTFS-HFS Converter</a><br>
+							</div>
+						</div>
+					</div>
+			</div>
+			</div>
+			<div class="block_2">
+				<div class="block16">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Services</strong></a><br>
+						<a href="#">Support</a><br>
+						<a href="#">Beta programs</a><br>
+						<a href="#">Knowledge base</a><br>
+						<a href="#">Support Forum</a><br>
+						<a href="#">Tehnology Advisory Council</a><br>
+						<a href="#">TeamViewer</a>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-5" class="hide"/>
+								<label for="hd-5" class="arrow_clicked">Services<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">Support</a><br>
+									<a href="#">Beta programs</a><br>
+									<a href="#">Knowledge base</a><br>
+									<a href="#">Support Forum</a><br>
+									<a href="#">Tehnology Advisory Council</a><br>
+									<a href="#">TeamViewer</a>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="block123">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>About</strong></a><br>
+						<a href="#">About us </a><br>
+						<a href="#">Lastet news</a><br>
+						<a href="#">Contact us</a><br>
+						<a href="#">Press room</a><br>
+						<a href="#">Blog</a><br>
+						<a href="#">Sitemap</a><br>
+					</div>
+
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-6" class="hide"/>
+								<label for="hd-6" class="arrow_clicked">About<span class="arrow_footer"></span></label>
+								<div class="non">
+									<a href="#">About us </a><br>
+									<a href="#">Lastet news</a><br>
+									<a href="#">Contact us</a><br>
+									<a href="#">Press room</a><br>
+									<a href="#">Blog</a><br>
+									<a href="#">Sitemap</a><br>
+								</div>
+							</div>
+						</div>
+						<div class="block112">
+							<div class="footer_line"></div>
+							<div class="hidden-xs">
+								<a href="#"><strong>Legal</strong></a><br>
+								<a href="#">Imprint </a><br>
+								<a href="#">Company Details </a><br>
+								<a href="#">Terms</a><br>
+								<a href="#">Privacy Statemant</a>
+							</div>
+								<div class="hidden-sm hidden-md hidden-lg">
+									<div class="hide_blocks">
+										<input type="checkbox" id="hd-7" class="hide"/>
+										<label for="hd-7" class="arrow_clicked">Legal<span class="arrow_footer"></span></label>
+										<div class="non">
+											<a href="#">Imprint </a><br>
+											<a href="#">Company Details </a><br>
+											<a href="#">Terms</a><br>
+											<a href="#">Privacy Statemant</a>
+										</div>
+									</div>
+								</div>
+						</div>
+				</div>
+			</div>
+			<div class="block_3">
+				<div class="block14">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Join Exclusives</strong></a><br>
+						<p>Connect with us for giveaways, <br> exclusive promotions and last news!</p>
+						<div class="social">
+							<a href="http://www.facebook.com/pages/Paragon-Software-Group/116815481437?ref=ts&v=wall" target="_blank" rel="nofollow"><img src="images/facebook.svg" onerror="this.onerror=null; this.src='images/facebook.png'" alt=""></a>
+							<a href="http://twitter.com/paragonsoftware" target="_blank" rel="nofollow"><img src="images/twitter.svg" onerror="this.onerror=null; this.src='images/twitter.png'" alt=""></a>
+							<!-- Убрал свг и осавил только пнг -->
+							<a href="http://blog.paragon-software.de/" target="_blank" rel="nofollow"><img src="images/blog_32px.png" onerror="this.onerror=null; this.src='images/blog.jpg'" alt=""></a>
+							<a href="http://support.paragon-software.com/" target="_blank" rel="nofollow"><img src="images/paragon.svg" onerror="this.onerror=null; this.src='images/paragon.png'" alt=""></a>
+							<a href="http://www.paragon-software.com/rss.xml" target="_blank" rel="nofollow"><img src="images/rss.svg" onerror="this.onerror=null; this.src='images/rss.png'" alt=""></a>
+						</div>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-8" class="hide" checked/>
+								<label for="hd-8" class="arrow_clicked">Join Exclusives<span class="arrow_footer actived"></span></label>
+								<div class="non">
+									 <div class="non">
+										<p>Connect with us for giveaways, <br> exclusive promotions and last news!</p>
+										<div class="social">
+											<a href="http://www.facebook.com/pages/Paragon-Software-Group/116815481437?ref=ts&v=wall" target="_blank" rel="nofollow"><img src="images/facebook.svg" onerror="this.onerror=null; this.src='images/facebook.png'" alt=""></a>
+											<a href="http://twitter.com/paragonsoftware" target="_blank" rel="nofollow"><img src="images/twitter.svg" onerror="this.onerror=null; this.src='images/twitter.png'" alt=""></a>
+											<!-- Убрал свг и осавил только пнг -->
+											<a href="http://blog.paragon-software.de/" target="_blank" rel="nofollow"><img src="images/blog_32px.png" alt=""></a>
+											<a href="http://support.paragon-software.com/" target="_blank" rel="nofollow"><img src="images/paragon.svg" onerror="this.onerror=null; this.src='images/paragon.png'" alt=""></a>
+											<a href="http://www.paragon-software.com/rss.xml" target="_blank" rel="nofollow"><img src="images/rss.svg" onerror="this.onerror=null; this.src='images/rss.png'" alt=""></a>
+										</div>
+								    </div>
+								</div>
+							</div>
+						</div>
+				
+				<div class="block112">
+					<div class="footer_line"></div>
+					<div class="hidden-xs">
+						<a href="#"><strong>Subsribe to our newslatter</strong></a>
+						<p>Enter your e-mail and receive updates <br> about special offers and exclusive <br> content! </p>
+						<button class="sign">
+							<span>Newsletter Sign-Up ›</span>
+						</button>
+					</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<div class="hide_blocks">
+								<input type="checkbox" id="hd-9" class="hide" checked/>
+								<label for="hd-9" class="arrow_clicked">Subsribe to our newslatter<span class="arrow_footer actived"></span></label>
+								<div class="non">
+									<p>Enter your e-mail and receive updates <br> about special offers and exclusive <br> content! </p>
+									<button class="sign">
+										<span>Newsletter Sign-Up ›</span>
+									</button>
+								</div>
+							</div>
+							 <div class="arrow_up"><a href="#"><img src="images/arrow_up.svg" onerror="this.onerror=null; this.src='images/arrow_up.png'" alt=""></a></div>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+</section>
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<!-- Подключил слайдер -->
+	<script src="libs/slippry/slippry.min.js"></script>
+	<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+	<script src="libs/slideout.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="libs/jquery.touchSwipe/jquery.touchSwipe.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.bxslider').bxSlider();
+		});
+    </script>
+
+     <script>
+      window.onload = function() {
+        var slideout = new Slideout({
+          'panel': document.getElementById('panel'),
+          'menu': document.getElementById('menu'),
+          'side': 'right'
+        });
+
+        document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
+          slideout.toggle();
+        });
+
+        document.querySelector('.menus').addEventListener('click', function(eve) {
+          if (eve.target.nodeName === 'A') { slideout.close(); }
+        });
+      };
+    </script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
