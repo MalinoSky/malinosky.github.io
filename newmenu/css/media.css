@@ -716,8 +716,10 @@
 		
 	}
 	.arrow {
-		background-image: url(../images/arrow_right.svg);
+		background-image: url(../images/arrow_right2.png);
+		background-size: 16px 18px;
 	}
+
 	.arrow_blue {
 		background-image: url(../images/arrow_right_blue.png);
 	}
@@ -943,3 +945,7 @@
 @media only screen and (min-width : 1200px) {
 
 }
+
+
+
+
