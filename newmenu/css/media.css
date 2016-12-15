@@ -680,7 +680,7 @@
 	.arrow_blue,
 	.arrow_footer {
 	   position: relative;
-	    top: 0;
+	    top: 2px;
 	    float: right;
 	    display: block;
 	    background-repeat: no-repeat;
