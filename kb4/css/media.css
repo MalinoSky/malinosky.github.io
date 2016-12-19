@@ -653,10 +653,11 @@
 		
 	}
 	/*19.12*/
-	.arrow {
+		.arrow {
 		background-image: url(../images/arrow_right2.png);
 		background-size: 16px 16px;
 	}
+	/*--*/
 	.arrow_blue {
 		background-image: url(../images/arrow_right_blue21.png);
 		background-size: 16px 16px;
