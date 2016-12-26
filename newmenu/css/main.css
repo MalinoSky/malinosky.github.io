@@ -1239,3 +1239,10 @@ height: 43px;
   text-align: center;
 }
 
+/*26.12*/
+.social img {
+  height: 32px;
+}
+.social .paragon_img {
+  height: 34px;
+}
