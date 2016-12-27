@@ -1,13 +1,3 @@
-// $(window).load(function(){
-// 	$("[data-toggle]").click(function() {
-// 	var toggle_el = $(this).data("toggle");
-// 	$(toggle_el).toggleClass("open-sidebar");
-// 	});
-// });
-
-// прописал скрипт для стрелок футера 10.11
-
-/*------------------------*/
 $('.grad_light_blue.arrow_clicked, .grad_lighter_blue.arrow_clicked').click(function () {
 	$(this).find('span').toggleClass('actived');
 	$(".accordion_toggle").prop("checked");
@@ -34,3 +24,9 @@ if(current == element) {
   current = element;
 }
 })();
+
+
+
+$('.arrow_clicked').click(function () {
+$(this).find('span').toggleClass('actived');
+});
