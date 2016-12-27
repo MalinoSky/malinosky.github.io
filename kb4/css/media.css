@@ -618,8 +618,8 @@
 	    float: right;
 	    display: block;
 	    background-repeat: no-repeat;
-	    width: 17px;
-	    height: 17px;
+	    width: 16px;
+	    height: 16px;
 	    -moz-transform: rotate(90deg); /* Для Firefox */
 	    -ms-transform: rotate(90deg); /* Для IE */
 	    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
