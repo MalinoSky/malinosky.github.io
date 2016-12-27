@@ -14,6 +14,10 @@ $('.grad_blue.arrow_clicked').click(function () {
 	$(".accordion_toggle").prop("checked");
 });
 
+$('.arrow_clicked').click(function () {
+$(this).find('.arrow_footer').toggleClass('actived');
+});
+
 var uncheckRadio = (function() {
 var current;
 return function(element) {
@@ -24,9 +28,3 @@ if(current == element) {
   current = element;
 }
 })();
-
-
-
-$('.arrow_clicked').click(function () {
-$(this).find('.arrow_footer').toggleClass('actived');
-});
