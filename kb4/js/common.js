@@ -15,7 +15,7 @@ $('.grad_blue.arrow_clicked').click(function () {
 });
 
 $('.arrow_clicked').click(function () {
-$(this).find('.arrow_footer').toggleClass('actived');
+$(this).find('span').toggleClass('actived');
 });
 
 var uncheckRadio = (function() {
