@@ -28,5 +28,5 @@ if(current == element) {
 
 
 $('.arrow_clicked').click(function () {
-$(this).find('span').toggleClass('actived');
+$(this).find('.arrow_footer').toggleClass('actived');
 });
