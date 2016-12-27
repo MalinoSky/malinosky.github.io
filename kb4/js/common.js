@@ -1,3 +1,7 @@
+$('.arrow_clicked').click(function () {
+	$(this).find('.arrow_footer').toggleClass('actived');
+});
+
 $('.grad_light_blue.arrow_clicked, .grad_lighter_blue.arrow_clicked').click(function () {
 	$(this).find('span').toggleClass('actived');
 	$(".accordion_toggle").prop("checked");
@@ -14,6 +18,8 @@ $('.grad_blue.arrow_clicked').click(function () {
 	$(".accordion_toggle").prop("checked");
 });
 
+
+
 var uncheckRadio = (function() {
 var current;
 return function(element) {
@@ -24,7 +30,3 @@ if(current == element) {
   current = element;
 }
 })();
-
-$('.arrow_clicked').click(function () {
-$(this).find('span').toggleClass('actived');
-});
