@@ -1,3 +1,7 @@
+$('.arrow_clicked').click(function () {
+$(this).find('span').toggleClass('actived');
+});
+
 $('.grad_light_blue.arrow_clicked, .grad_lighter_blue.arrow_clicked').click(function () {
 	$(this).find('span').toggleClass('actived');
 	$(".accordion_toggle").prop("checked");
@@ -12,10 +16,6 @@ $('.grad_blue.arrow_clicked').click(function () {
 		arrow.addClass('actived');
 	}
 	$(".accordion_toggle").prop("checked");
-});
-
-$('.arrow_clicked').click(function () {
-$(this).find('span').toggleClass('actived');
 });
 
 var uncheckRadio = (function() {
