@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css" media="screen">
+      body {
+        text-align: center;
+        font-family: helvetica, sans-serif;
+        padding-bottom: 25px;
+      }
+
+      h2 {
+        margin-top: 35px;
+      }
+
+      .responsive {
+        width: 80%;
+        margin: auto;
+      }
+
+      .responsive img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+      }
+
+      .wrapper {
+        background: #eaeaea;
+        margin: 35px auto;
+        width: 1170px;
+        padding: 25px 25px 45px;
+        border-radius: 5px;
+      }
+
+      .img-wrapper {
+        display: inline-block;
+        width: 30%;
+        background: rgba(0, 0, 0, .06);
+        padding: 0 15px 25px;
+        vertical-align: middle;
+        border-radius: 3px;
+      }
+
+      .img-wrapper p {
+        height: 75px;
+        font-size: 13px;
+      }
+
+      .bg, .bg2, .bg3 {
+        height: 150px;
+      }
+    </style>
+
+    <!-- Uncomment one of the following CSS links to test the behavior of a
+         different CSS preprocessor.-->
+
+    <!-- <link type="text/css" rel="stylesheet" href="styles/retina.scss.css"> -->
+    <!-- <link type="text/css" rel="stylesheet" href="styles/retina.sass.css"> -->
+
+    <script type="text/javascript">
+      // Spoof the browser into thinking it is Retina
+      // comment the next line out to make sure it works without retina
+      window.devicePixelRatio = 3;
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <h1>retina.js test environement</h1>
+
+      <h2>Img Tags</h2>
+
+      <!-- This image does not opt in. It will always be shown at 1x -->
+      <div class="img-wrapper">
+        <h3>Img tag @1x</h3>
+        <p>
+          This image does not opt in. It will always be shown at 1x.
+        </p>
+        <img src="google-logo.png">
+      </div>
+
+      <!-- This image should be shown at 2x all retina environments,
+           but shown at 1x in non-retina environments. -->
+      <div class="img-wrapper">
+        <h3>Img tag @2x</h3>
+        <p>
+          This image should be shown at 2x all retina environments,
+          but shown at 1x in non-retina environments.
+        </p>
+        <img src="google-logo.png" data-rjs="2">
+      </div>
+
+      <!-- This image should be shown at 3x in all environments 3x and up,
+           shown at 2x in 2x environments, and shown at 1x in non-retina
+           environments. -->
+      <div class="img-wrapper">
+        <h3>Img tag @3x</h3>
+        <p>
+          This image should be shown at 3x in all environments 3x and up,
+          shown at 2x in 2x environments, and shown at 1x in non-retina
+          environments.
+        </p>
+        <img src="google-logo.png" data-rjs="3">
+      </div>    
+
+    </div>
+
+
+    <script type="text/javascript" charset="utf-8" src="retina.js"></script>
+  </body>
+</html>
