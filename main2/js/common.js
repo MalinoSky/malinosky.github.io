@@ -1,13 +1,3 @@
-// $(window).load(function(){
-// 	$("[data-toggle]").click(function() {
-// 	var toggle_el = $(this).data("toggle");
-// 	$(toggle_el).toggleClass("open-sidebar");
-// 	});
-// });
-
-// $('.arrow_clicked').click(function () {
-// 	$(this).find('span').toggleClass('actived');
-// });
 $(document).ready(function(){
     $('.tabs_menu a').click(function(e) {
         e.preventDefault();
@@ -41,6 +31,12 @@ $('.grad_blue.arrow_clicked').click(function () {
 	}
 	$(".accordion_toggle").prop("checked");
 });
+
+
+$('.arrow_clicked').click(function () {
+	$(this).find('.arrow_footer').toggleClass('actived');
+});
+
 
 
 var uncheckRadio = (function() {
