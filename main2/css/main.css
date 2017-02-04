@@ -1112,21 +1112,21 @@ height: 43px;
 	margin-bottom: 40px;
 }
 .business_descr {
-  border-left: 1px solid #565656;
-  border-right: 1px solid #565656;
-  border-bottom: 1px solid #565656;
+  border-left: 1px solid #878787;
+  border-right: 1px solid #878787;
+  border-bottom: 1px solid #878787;
 }
 .business_descr_no_bot {
   border-bottom: none;
 }
 .main_business_descr_left {
-  border: 1px solid #565656;
+  border: 1px solid #878787;
   height: 285px;
 }
 .main_business_descr_right {
-  border-top: 1px solid #565656;
-  border-right: 1px solid #565656;
-  border-bottom: 1px solid #565656;
+  border-top: 1px solid #878787;
+  border-right: 1px solid #878787;
+  border-bottom: 1px solid #878787;
   height: 285px;
 }
 .bisness_pad_no_left {
@@ -1327,4 +1327,9 @@ height: 43px;
 }
 .align_tour .bxslider li {
   width: 19.68% !important;
+}
+
+
+.opin {
+  padding: 0 10px;
 }
