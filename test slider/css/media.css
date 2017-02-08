@@ -993,7 +993,10 @@
 @media (min-width: 319px) and (max-width: 992px) {
 	.video {
 	    height: 320px;
-	    background: #edfbff url("../images/v-index.png") top 60% center no-repeat;
+		background-color: : #edfbff	
+	    background-image: url("../images/v-index.png");
+	    background-repeat: no-repeat;
+	    background-position: top 60% center;
 	    background-size: contain;
 	} 
 	.video {
