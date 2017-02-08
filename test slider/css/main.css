@@ -137,3 +137,15 @@ body {
 .opin {
   padding: 0 10px;
 }
+
+
+
+
+
+
+
+
+.video {
+    margin: 0;
+}
+.video {height: 320px;background: #edfbff url("../images/v-index.png") top 60% center no-repeat;background-size: contain;}

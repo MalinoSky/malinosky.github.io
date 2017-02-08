@@ -989,6 +989,26 @@
 }
 
 
+
+@media (min-width: 319px) and (max-width: 992px) {
+	.video {
+	    height: 320px;
+	    background: #edfbff url("../images/v-index.png") top 60% center no-repeat;
+	    background-size: contain;
+	} 
+	.video {
+	    margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
